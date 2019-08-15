@@ -74,7 +74,7 @@ const BelowFold = () => (
     <WaveSVG />
     <div id="below-fold-root">
       <div className="col left">
-        <Link href="https://github.com/brunocrosier/password.kiwi"><h4><a>FULLY OPEN SOURCE</a></h4></Link>
+        <h4><Link href="https://github.com/brunocrosier/password.kiwi"><a>FULLY OPEN SOURCE</a></Link></h4>
         <h1>100% secure</h1>
         <p>
           Every password on this page is created securely, randomly and

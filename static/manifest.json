@@ -1,0 +1,16 @@
+{
+  "name": "password kiwi",
+  "short_name": "password kiwi",
+  "lang": "en-US",
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#202025",
+  "background_color": "#202025",
+  "icons": [
+    {
+      "src": "https://password.kiwi/static/kiwi.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ]
+}

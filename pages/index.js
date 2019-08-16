@@ -61,32 +61,17 @@ const Home = () => {
 
       <AppContainer colorScheme={colorScheme}>
         <div id="app-container">
-          <motion.div
+          <div
             id="menu-bar"
-            animate={{
-              opacity: 1,
-              filter: "blur(0px)"
-            }}
-            initial={{
-              opacity: 0,
-              filter: "blur(10px)"
-            }}
-            transition={{ ease: "easeOut", duration: 0.2 }}
             className={scrollYProgress < 1 ? "" : "scrolled-menu-bar"}
           >
             <h1 id="menu-title" onClick={() => Router.reload()}>
               password.kiwi
-              {/* <span>🥝</span> */}
-            <Logo />
+              <Logo />
             </h1>
-          </motion.div>
+          </div>
 
-          <motion.div
-            id="main-box"
-            animate={{ scale: 1, opacity: 1, filter: "blur(0px)" }}
-            initial={{ scale: 0.5, opacity: 0, filter: "blur(10px)" }}
-            transition={{ ease: "easeOut", duration: 0.2 }}
-          >
+          <div id="main-box">
             <div id="input-component">
               <ReactFitText compressor={1.3} maxFontSize={50}>
                 <h1
@@ -120,7 +105,7 @@ const Home = () => {
                 click to copy
               </h4>
             </div>
-          </motion.div>
+          </div>
 
           <StyledSnack
             anchorOrigin={{

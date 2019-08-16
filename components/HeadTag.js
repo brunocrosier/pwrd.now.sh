@@ -6,12 +6,13 @@ const HeadTag = () => (
     <link
       href="https://fonts.googleapis.com/css?family=Josefin+Sans:400,700&display=swap"
       rel="stylesheet"
+      async
     />
 
-    <link href="/static/initial.css" rel="stylesheet" />
+    <link href="/static/initial.css" rel="stylesheet" async/>
 
-    <link rel="shortcut icon" type="image/x-icon" href="/static/favicon.ico" />
-    <link rel="manifest" href="/static/manifest.json" />
+    <link rel="shortcut icon" type="image/x-icon" href="/static/favicon.ico" async />
+    <link rel="manifest" href="/static/manifest.json" async />
     <meta name="theme-color" content="#282935" />
 
     <title>Password Kiwi | Secure Password Generator</title>

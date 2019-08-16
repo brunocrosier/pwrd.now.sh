@@ -22,7 +22,7 @@ var _jsxFileName = "C:\\Users\\Bruno\\Documents\\Mosh Node\\0208\\password\\comp
 
 
 function _templateObject() {
-  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n  display: flex;\n  flex-direction: column;\n  margin-top: -9vh;\n\n  #sitting-on-lock {\n    fill: #292a36;\n  }\n\n  #below-fold-root {\n    background: linear-gradient(180deg, #282935, #202025);\n    padding: 10vh 10vw;\n    display: flex;\n    flex-direction: column;\n    /* transform: skew(0deg,3deg); */\n  }\n\n  .col {\n    width: 100%;\n    display: flex;\n    flex-direction: column;\n    padding: 2%;\n  }\n\n  .right {\n    margin-top: 10vh;\n  }\n\n  p {\n    color: white;\n    width: 100%;\n  }\n\n  h4 {\n    color: white;\n  }\n\n  h1 {\n    color: white;\n    font-size: 3rem;\n    margin: 0%;\n  }\n\n  /* desktop-specific */\n\n  @media (min-width: 768px) {\n    margin-top: 0vh;\n\n    .col {\n      width: 50%;\n    }\n    #below-fold-root {\n      flex-direction: row;\n    }\n\n    .left {\n      padding-right: 4%;\n    }\n\n    .right {\n      padding-left: 4%;\n      margin-top: 0;\n    }\n  }\n"]);
+  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n  display: flex;\n  flex-direction: column;\n  margin-top: -9vh;\n\n  #sitting-on-lock {\n    fill: #292a36;\n  }\n\n  #below-fold-root {\n    background: linear-gradient(180deg, #282935, #202025);\n    padding: 10vh 10vw;\n    display: flex;\n    flex-direction: column;\n    /* transform: skew(0deg,3deg); */\n  }\n\n  .col {\n    width: 100%;\n    display: flex;\n    flex-direction: column;\n    padding: 2%;\n  }\n\n  .right {\n    margin-top: 10vh;\n  }\n\n  p {\n    color: white;\n    width: 100%;\n  }\n\n  h4 a {\n    color: white;\n  }\n\n  h1 {\n    color: white;\n    font-size: 3rem;\n    margin: 0%;\n  }\n\n  /* desktop-specific */\n\n  @media (min-width: 768px) {\n    margin-top: 0vh;\n\n    .col {\n      width: 50%;\n    }\n    #below-fold-root {\n      flex-direction: row;\n    }\n\n    .left {\n      padding-right: 4%;\n    }\n\n    .right {\n      padding-left: 4%;\n      margin-top: 0;\n    }\n  }\n"]);
 
   _templateObject = function _templateObject() {
     return data;
@@ -70,7 +70,20 @@ var BelowFold = function BelowFold() {
       lineNumber: 77
     },
     __self: this
-  }, "FULLY OPEN SOURCE"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h1", {
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_3___default.a, {
+    href: "https://github.com/brunocrosier/password.kiwi",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 77
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 77
+    },
+    __self: this
+  }, "FULLY OPEN SOURCE"))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h1", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 78
@@ -88,17 +101,17 @@ var BelowFold = function BelowFold() {
       lineNumber: 83
     },
     __self: this
-  }, "None of your data ever touches our server. No cookies. No tracking pixels. Nothing.")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+  }, "None of your data ever touches our server. No cookies. No tracking pixels.")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
     className: "col right",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 96
+      lineNumber: 99
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_SVGIllustration__WEBPACK_IMPORTED_MODULE_4__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 97
+      lineNumber: 100
     },
     __self: this
   }))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
@@ -109,7 +122,7 @@ var BelowFold = function BelowFold() {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 100
+      lineNumber: 103
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
@@ -118,14 +131,14 @@ var BelowFold = function BelowFold() {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 107
+      lineNumber: 110
     },
     __self: this
   }, "built with \u2764 by", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_3___default.a, {
     href: "https://twitter.com/bruno_crosier",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 109
+      lineNumber: 112
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
@@ -134,7 +147,7 @@ var BelowFold = function BelowFold() {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 110
+      lineNumber: 113
     },
     __self: this
   }, " Bruno")))));
@@ -177,6 +190,7 @@ var HeadTag = function HeadTag() {
   }, "Secure Password Generator"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("link", {
     href: "https://fonts.googleapis.com/css?family=Josefin+Sans:400,700&display=swap",
     rel: "stylesheet",
+    async: true,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 6
@@ -185,26 +199,29 @@ var HeadTag = function HeadTag() {
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("link", {
     href: "/static/initial.css",
     rel: "stylesheet",
+    async: true,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 11
+      lineNumber: 12
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("link", {
     rel: "shortcut icon",
     type: "image/x-icon",
     href: "/static/favicon.ico",
+    async: true,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 13
+      lineNumber: 14
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("link", {
     rel: "manifest",
     href: "/static/manifest.json",
+    async: true,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 14
+      lineNumber: 15
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("meta", {
@@ -212,13 +229,13 @@ var HeadTag = function HeadTag() {
     content: "#282935",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 15
+      lineNumber: 16
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("title", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 17
+      lineNumber: 18
     },
     __self: this
   }, "Password Kiwi | Secure Password Generator"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("meta", {
@@ -226,7 +243,7 @@ var HeadTag = function HeadTag() {
     content: "Password Kiwi | Secure Password Generator",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 18
+      lineNumber: 19
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("meta", {
@@ -234,7 +251,7 @@ var HeadTag = function HeadTag() {
     content: "Generate strong, secure, random passwords \uD83D\uDD12 100% open source, and works offline.",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 19
+      lineNumber: 20
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("meta", {
@@ -242,7 +259,7 @@ var HeadTag = function HeadTag() {
     content: "website",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 24
+      lineNumber: 25
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("meta", {
@@ -250,7 +267,7 @@ var HeadTag = function HeadTag() {
     content: "https://password.kiwi/",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 25
+      lineNumber: 26
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("meta", {
@@ -258,7 +275,7 @@ var HeadTag = function HeadTag() {
     content: "Password Kiwi | Secure Password Generator",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 26
+      lineNumber: 27
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("meta", {
@@ -266,7 +283,7 @@ var HeadTag = function HeadTag() {
     content: "Generate strong, secure, random passwords \uD83D\uDD12 100% open source, and works offline.",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 30
+      lineNumber: 31
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("meta", {
@@ -274,7 +291,7 @@ var HeadTag = function HeadTag() {
     content: "",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 34
+      lineNumber: 35
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("meta", {
@@ -282,7 +299,7 @@ var HeadTag = function HeadTag() {
     content: "summary_large_image",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 36
+      lineNumber: 37
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("meta", {
@@ -290,7 +307,7 @@ var HeadTag = function HeadTag() {
     content: "https://password.kiwi/",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 37
+      lineNumber: 38
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("meta", {
@@ -298,7 +315,7 @@ var HeadTag = function HeadTag() {
     content: "Password Kiwi | Secure Password Generator",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 38
+      lineNumber: 39
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("meta", {
@@ -306,7 +323,7 @@ var HeadTag = function HeadTag() {
     content: "Generate strong, secure, random passwords \uD83D\uDD12 100% open source, and works offline.",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 42
+      lineNumber: 43
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("meta", {
@@ -314,7 +331,7 @@ var HeadTag = function HeadTag() {
     content: "",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 46
+      lineNumber: 47
     },
     __self: this
   }));
@@ -37227,20 +37244,8 @@ var Home = function Home() {
       lineNumber: 63
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(framer_motion__WEBPACK_IMPORTED_MODULE_5__["motion"].div, {
+  }, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
     id: "menu-bar",
-    animate: {
-      opacity: 1,
-      filter: "blur(0px)"
-    },
-    initial: {
-      opacity: 0,
-      filter: "blur(10px)"
-    },
-    transition: {
-      ease: "easeOut",
-      duration: 0.2
-    },
     className: scrollYProgress < 1 ? "" : "scrolled-menu-bar",
     __source: {
       fileName: _jsxFileName,
@@ -37254,41 +37259,27 @@ var Home = function Home() {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 77
+      lineNumber: 68
     },
     __self: this
   }, "password.kiwi", react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_components_Logo__WEBPACK_IMPORTED_MODULE_13__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 80
+      lineNumber: 70
     },
     __self: this
-  }))), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(framer_motion__WEBPACK_IMPORTED_MODULE_5__["motion"].div, {
+  }))), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
     id: "main-box",
-    animate: {
-      scale: 1,
-      opacity: 1,
-      filter: "blur(0px)"
-    },
-    initial: {
-      scale: 0.5,
-      opacity: 0,
-      filter: "blur(10px)"
-    },
-    transition: {
-      ease: "easeOut",
-      duration: 0.2
-    },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 84
+      lineNumber: 74
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
     id: "input-component",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 90
+      lineNumber: 75
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_fittext__WEBPACK_IMPORTED_MODULE_11___default.a, {
@@ -37296,7 +37287,7 @@ var Home = function Home() {
     maxFontSize: 50,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 91
+      lineNumber: 76
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("h1", {
@@ -37306,7 +37297,7 @@ var Home = function Home() {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 92
+      lineNumber: 77
     },
     __self: this
   }, "secure password generator")), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(framer_motion__WEBPACK_IMPORTED_MODULE_5__["motion"].input, {
@@ -37338,7 +37329,7 @@ var Home = function Home() {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 98
+      lineNumber: 83
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("h4", {
@@ -37351,7 +37342,7 @@ var Home = function Home() {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 115
+      lineNumber: 100
     },
     __self: this
   }, "click to copy"))), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(StyledSnack, {
@@ -37366,20 +37357,20 @@ var Home = function Home() {
       id: "message-id",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 133
+        lineNumber: 118
       },
       __self: this
     }, "copied to clipboard!"),
     onClose: handleSnackbarClose,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 125
+      lineNumber: 110
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_components_BelowFold__WEBPACK_IMPORTED_MODULE_12__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 137
+      lineNumber: 122
     },
     __self: this
   }))));

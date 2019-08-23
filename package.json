@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "next",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "analyze:browser": "cross-env BUNDLE_ANALYZE=browser next build"
   },
   "keywords": [],
   "author": "",
@@ -16,14 +17,17 @@
     "@material-ui/icons": "^4.2.1",
     "@react-hook/window-size": "^1.0.1",
     "@rehooks/window-size": "^1.0.2",
+    "@zeit/next-bundle-analyzer": "^0.1.2",
+    "cross-env": "^5.2.0",
     "framer-motion": "^1.5.0",
     "next": "^9.0.3",
-    "next-offline": "^4.0.3",
+    "next-offline": "^5.0.0-beta.4",
     "next-pwa": "^1.0.9",
     "randomatic": "^3.1.1",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-fittext": "^1.0.0",
+    "react-use-clipboard": "^0.2.0",
     "react-use-scroll-position": "^2.0.0",
     "styled-components": "4.3.2"
   },

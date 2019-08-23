@@ -11,14 +11,19 @@ import ReactFitText from "react-fittext"
 import BelowFold from "../components/BelowFold"
 import Logo from "../components/Logo"
 
+import useClipboard from "react-use-clipboard"
+
 const Home = () => {
-  const initialPassword = randomize("Aa0!", 10)
+  const initialPassword =
+    process.browser !== undefined ? randomize("Aa0!", 10) : null
   const [password, setPassword] = useState(initialPassword)
 
   const [snackbarIsOpen, setSnackbarIsOpen] = useState(false)
   const passwordInputRef = useRef(null)
 
   const scrollYProgress = useScrollYPosition()
+
+  const [isCopied, setCopied] = useClipboard(password)
 
   const themes = {
     default: {
@@ -43,7 +48,7 @@ const Home = () => {
     }
   }
 
-  const [colorScheme, setColorScheme] = useState(themes.dark)
+  const [colorscheme, setcolorscheme] = useState(themes.dark)
 
   const generateAndCopyPassword = (pattern, length) => {
     setPassword(randomize("Aa0!", 10))
@@ -59,7 +64,7 @@ const Home = () => {
       <CssBaseline />
       <HeadTag />
 
-      <AppContainer colorScheme={colorScheme}>
+      <AppContainer colorscheme={colorscheme}>
         <div id="app-container">
           <div
             id="menu-bar"
@@ -73,29 +78,30 @@ const Home = () => {
 
           <div id="main-box">
             <div id="input-component">
-              <ReactFitText compressor={1.3} maxFontSize={50}>
+              <ReactFitText compressor={1.5} maxFontSize={45}>
                 <h1
                   style={{ color: "white", textShadow: "0px 1px 3px #1face1" }}
                 >
                   secure password generator
                 </h1>
               </ReactFitText>
-              <motion.input
+
+              <motion.button
                 id="generated-password-input"
                 name="generated-password"
                 aria-label="generated-password"
                 className="input-gradient-bg"
-                type="text"
-                readOnly="readonly"
-                ref={passwordInputRef}
-                value={password}
-                onChange={e => setPassword(e.target.value)}
-                onClick={() => generateAndCopyPassword()}
-                spellCheck={false}
+                onClick={() => {
+                  setCopied()
+                  setPassword(randomize("Aa0!", 10))
+                  setSnackbarIsOpen(true)
+                }}
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95, filter: "blur(3px)" }}
                 transition={{ ease: "easeOut", duration: 0.3 }}
-              />
+              >
+                {password}
+              </motion.button>
 
               <h4
                 id="click-to-copy"
@@ -112,7 +118,7 @@ const Home = () => {
               vertical: "bottom",
               horizontal: "center"
             }}
-            colorScheme={colorScheme}
+            colorscheme={colorscheme}
             open={snackbarIsOpen}
             autoHideDuration={1000}
             message={<span id="message-id">copied to clipboard!</span>}
@@ -122,11 +128,22 @@ const Home = () => {
           <BelowFold />
         </div>
       </AppContainer>
+      <style jsx>{`
+        :global(body) {
+          margin: 0;
+        }
+      `}</style>
     </>
   )
 }
 
 const AppContainer = styled.div`
+  /* @import url("https://fonts.googleapis.com/css?family=Josefin+Sans:400,700&display=swap"); */
+
+  /* @import url('https://fonts.googleapis.com/css?family=Product+Sans:400,700&display=swap'); */
+
+  @import url("https://fonts.googleapis.com/css?family=Google+Sans:400,700&display=swap");
+
   #menu-bar {
     display: flex;
     align-content: center;
@@ -152,7 +169,7 @@ const AppContainer = styled.div`
     align-self: center;
     justify-content: center;
     justify-items: center;
-    width: 100vw;
+    width: 100%;
     height: 100vh;
     margin-top: -13vh;
     background-image: url("../static/shape-1.png");
@@ -161,7 +178,7 @@ const AppContainer = styled.div`
     background-position: top right;
   }
 
-  input#generated-password-input {
+  button#generated-password-input {
     border-radius: 50vw;
     font-size: 30px;
     height: 80px;
@@ -169,7 +186,7 @@ const AppContainer = styled.div`
     letter-spacing: 5px;
     border: 0px solid transparent;
     box-shadow: 0px 2px 10px #44444442;
-    padding: 10px 0px 5px 0px;
+    padding: 10px 40px 10px 40px;
     font-weight: 700;
     color: white;
     -webkit-tap-highlight-color: transparent;
@@ -177,13 +194,11 @@ const AppContainer = styled.div`
     align-self: center;
     max-width: 100%;
   }
-  input#generated-password-input ::selection {
-    background: transparent;
-  }
-  input#generated-password-input:focus {
+
+  button#generated-password-input:focus {
     outline: 1px transparent solid;
   }
-  input#generated-password-input:hover {
+  button#generated-password-input:hover {
     cursor: pointer;
   }
   h1#menu-title {
@@ -195,7 +210,6 @@ const AppContainer = styled.div`
     align-items: center;
   }
   p {
-    /* width: max-content; */
     -webkit-tap-highlight-color: transparent;
     font-size: 1.05rem;
   }
@@ -217,12 +231,12 @@ const AppContainer = styled.div`
   h4,
   h5,
   h6,
-  input {
-    font-family: "Josefin Sans", sans-serif;
+  button {
+    font-family: "Google Sans", sans-serif;
   }
 
   p {
-    font-family: "Josefin Sans", sans-serif;
+    font-family: "Google Sans", sans-serif;
   }
 
   a {
@@ -250,8 +264,6 @@ const AppContainer = styled.div`
   #input-component {
     display: flex;
     flex-direction: column;
-    /* position: sticky;
-    top: 10vh; */
     z-index: 2;
     padding: 5vh;
     width: 100vw;
@@ -262,13 +274,13 @@ const AppContainer = styled.div`
   }
 
   .gradient-bg {
-    background: ${({ colorScheme }) =>
-      `linear-gradient(${colorScheme.gradientBg})`};
+    background: ${({ colorscheme }) =>
+      `linear-gradient(${colorscheme.gradientBg})`};
   }
 
   .input-gradient-bg {
-    background: ${({ colorScheme }) =>
-      `linear-gradient(${colorScheme.inputGradientBg})`};
+    background: ${({ colorscheme }) =>
+      `linear-gradient(${colorscheme.inputGradientBg})`};
   }
 
   .clip-text {
@@ -301,11 +313,11 @@ const StyledSnack = styled(Snackbar)`
     padding: 6px 36px;
   }
   .MuiTypography-root {
-    background: ${({ colorScheme }) =>
-      `linear-gradient(${colorScheme.inputGradientBg})`};
+    background: ${({ colorscheme }) =>
+      `linear-gradient(${colorscheme.inputGradientBg})`};
   }
   span {
-    font-family: "Josefin Sans";
+    font-family: "Google Sans";
   }
 `
 

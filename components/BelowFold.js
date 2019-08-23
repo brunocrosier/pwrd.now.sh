@@ -1,5 +1,5 @@
 import styled from "styled-components"
-import Link from "next/link"
+// import Link from "next/link"
 import SVGIllustration from "./SVGIllustration"
 import WaveSVG from "../components/WaveSVG"
 
@@ -17,7 +17,6 @@ const BelowFoldContainerDiv = styled.div`
     padding: 10vh 10vw;
     display: flex;
     flex-direction: column;
-    /* transform: skew(0deg,3deg); */
   }
 
   .col {
@@ -74,7 +73,9 @@ const BelowFold = () => (
     <WaveSVG />
     <div id="below-fold-root">
       <div className="col left">
-        <h4><Link href="https://github.com/brunocrosier/password.kiwi"><a>FULLY OPEN SOURCE</a></Link></h4>
+        <h4>
+            <a href="https://github.com/brunocrosier/password.kiwi">FULLY OPEN SOURCE</a>
+            </h4>
         <h1>100% secure</h1>
         <p>
           Every password on this page is created securely, randomly and
@@ -82,19 +83,8 @@ const BelowFold = () => (
         </p>
         <p>
           None of your data ever touches our server. No cookies. No tracking
-          pixels.
+          pixels. No sweat.
         </p>
-        {/* <p>
-          No sweat.
-        </p> */}
-        {/* <h3>Nothing</h3>
-        <p>
-          For good practice, you should open this page in an Incognito tab, turn
-          on Airplane mode, and then generate a secure password above. You can
-          then close this page and turn back on the internet - secure in the
-          knowledge that it would have been physically impossible for any of
-          your data to have been sent anywhere.
-        </p> */}
       </div>
       <div className="col right">
         <SVGIllustration />
@@ -109,9 +99,7 @@ const BelowFold = () => (
     >
       <p style={{ color: "white" }}>
         built with ❤ by
-        <Link href="https://twitter.com/bruno_crosier">
-          <a style={{ color: "white" }}> Bruno</a>
-        </Link>
+          <a href="https://twitter.com/bruno_crosier" style={{ color: "white" }}> Bruno</a>
       </p>
     </div>
   </BelowFoldContainerDiv>

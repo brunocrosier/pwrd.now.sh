@@ -4,14 +4,11 @@ const HeadTag = () => (
   <Head>
     <title>Secure Password Generator</title>
     <link
-      href="https://fonts.googleapis.com/css?family=Josefin+Sans:400,700&display=swap"
-      rel="stylesheet"
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="/static/favicon.ico"
       async
     />
-
-    <link href="/static/initial.css" rel="stylesheet" async/>
-
-    <link rel="shortcut icon" type="image/x-icon" href="/static/favicon.ico" async />
     <link rel="manifest" href="/static/manifest.json" async />
     <meta name="theme-color" content="#282935" />
 

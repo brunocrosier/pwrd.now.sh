@@ -6336,7 +6336,7 @@ function connect(options) {
       error.name = err.name;
       error.stack = err.stack; // __NEXT_DIST_DIR is provided by webpack
 
-      (0, _sourceMapSupport.rewriteStacktrace)(error, "C:\\Users\\Bruno\\Documents\\Mosh Node\\0208\\password\\.next");
+      (0, _sourceMapSupport.rewriteStacktrace)(error, "C:\\Users\\Bruno\\Documents\\Code\\0208\\password\\.next");
       return error;
     }
   };
@@ -12826,7 +12826,7 @@ module.exports = function(module) {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! C:\Users\Bruno\Documents\Mosh Node\0208\password\node_modules\next-offline\register-sw-compiled.js */"./node_modules/next-offline/register-sw-compiled.js");
+__webpack_require__(/*! C:\Users\Bruno\Documents\Code\0208\password\node_modules\next-offline\register-sw-compiled.js */"./node_modules/next-offline/register-sw-compiled.js");
 module.exports = __webpack_require__(/*! .\node_modules\next\dist\client\next-dev.js */"./node_modules/next/dist/client/next-dev.js");
 
 

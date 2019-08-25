@@ -41,7 +41,7 @@ const Home = () => {
       topbarcolor: "#2f3437",
       background: "#2f3437",
       gradientBg: "26deg,#ffffff 0%,#afafaf 100%",
-      inputGradientBg: "26deg, #00dbde 0%, #fc00ff 100%",
+      inputGradientBg: "23deg,rgb(185,228,139),rgb(131,189,70)",
       inputBoxShadow: "#0a0a0a42",
       overlayBoxShadow: "#0a0a0a42",
       snackbarBackground: "#5eab3e"
@@ -79,11 +79,7 @@ const Home = () => {
           <div id="main-box">
             <div id="input-component">
               <ReactFitText compressor={1.5} maxFontSize={45}>
-                <h1
-                  style={{ color: "white", textShadow: "0px 1px 3px #1face1" }}
-                >
-                  secure password generator
-                </h1>
+                <h1 style={{ color: "#8ac24f" }}>secure password generator</h1>
               </ReactFitText>
 
               <motion.button
@@ -105,8 +101,7 @@ const Home = () => {
 
               <h4
                 id="click-to-copy"
-                style={{ color: "white" }}
-                onClick={() => generateAndCopyPassword()}
+                // onClick={() => generateAndCopyPassword()}
               >
                 click to copy
               </h4>
@@ -138,10 +133,6 @@ const Home = () => {
 }
 
 const AppContainer = styled.div`
-  /* @import url("https://fonts.googleapis.com/css?family=Josefin+Sans:400,700&display=swap"); */
-
-  /* @import url('https://fonts.googleapis.com/css?family=Product+Sans:400,700&display=swap'); */
-
   @import url("https://fonts.googleapis.com/css?family=Google+Sans:400,700&display=swap");
 
   #menu-bar {
@@ -153,13 +144,17 @@ const AppContainer = styled.div`
     top: 0px;
     z-index: 10;
     box-shadow: 0px 0px 1px #1ac3e138;
-    background: #00000014;
+    background: linear-gradient(23deg, rgb(185, 228, 139), rgb(131, 189, 70));
     height: 10vh;
   }
 
   .scrolled-menu-bar {
     box-shadow: 0px 0px 7px #31313138 !important;
-    background: linear-gradient(0deg, #202025, #282935) !important;
+    background: linear-gradient(
+      23deg,
+      rgb(185, 228, 139),
+      rgb(131, 189, 70)
+    ) !important;
   }
 
   #main-box {
@@ -172,7 +167,7 @@ const AppContainer = styled.div`
     width: 100%;
     height: 100vh;
     margin-top: -13vh;
-    background-image: url("../static/shape-1.png");
+    /* background-image: url("../static/shape-2.png"); */
     background-repeat: no-repeat;
     background-size: contain;
     background-position: top right;
@@ -208,6 +203,7 @@ const AppContainer = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
+    /* text-shadow: 0px 1px 2px #79ab03; */
   }
   p {
     -webkit-tap-highlight-color: transparent;
@@ -218,7 +214,7 @@ const AppContainer = styled.div`
     flex-direction: column;
     align-content: center;
     min-height: 100vh;
-    background: linear-gradient(129deg, #292929, #272727);
+    background: linear-gradient(129deg, rgb(255, 255, 255), rgb(245, 245, 245));
   }
 
   body {
@@ -240,13 +236,13 @@ const AppContainer = styled.div`
   }
 
   a {
-    color: ${({ theme }) => theme.colors.darkgray};
+    color: #8ac24f;
     text-decoration: none;
     font-weight: bold;
   }
 
   h4#click-to-copy {
-    color: ${({ theme }) => theme.colors.darkgray};
+    color: #8ac24f;
     text-transform: uppercase;
     letter-spacing: 7px;
     opacity: 0.8;
@@ -268,9 +264,9 @@ const AppContainer = styled.div`
     padding: 5vh;
     width: 100vw;
     align-self: center;
-    background: linear-gradient(45deg, #335fdc52, #4c4c4c08);
+    /* background: linear-gradient(45deg, #335fdc52, #4c4c4c08); */
     border-radius: 20px;
-    box-shadow: 0px 5px 5px #18191957;
+    /* box-shadow: 0px 5px 5px #18191957; */
   }
 
   .gradient-bg {
@@ -315,6 +311,8 @@ const StyledSnack = styled(Snackbar)`
   .MuiTypography-root {
     background: ${({ colorscheme }) =>
       `linear-gradient(${colorscheme.inputGradientBg})`};
+    box-shadow: none;
+    border-radius: 30px;
   }
   span {
     font-family: "Google Sans";

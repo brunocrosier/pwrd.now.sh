@@ -1,7 +1,7 @@
 import styled from "styled-components"
 
 const StyledSvg = styled.svg`
-  fill: #282935;
+  fill: #b9e48b;
 `
 
 const WaveSVG = () => (

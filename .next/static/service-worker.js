@@ -17,8 +17,12 @@ self.__precacheManifest = [
     "revision": "0dc716076a7c9081e3dd"
   },
   {
-    "url": "/_next/static/webpack/711f075442f90d797630.hot-update.json",
-    "revision": "08719c82d7009d828844330d124b3109"
+    "url": "/_next/static/webpack/e72c47e8b3f88300ef7f.hot-update.json",
+    "revision": "1073a1228976072d5c5b53800dce5685"
+  },
+  {
+    "url": "/_next/static/webpack/static\\development\\pages\\index.js.e72c47e8b3f88300ef7f.hot-update.js",
+    "revision": "306cd098b6df383e1206"
   },
   {
     "url": "/_next/static\\development\\dll\\dll_92fa9139568d8c3d8f78.js",
@@ -34,7 +38,11 @@ self.__precacheManifest = [
   },
   {
     "url": "/_next/static\\development\\pages\\index.js",
-    "revision": "53530f094076f95f0029"
+    "revision": "306cd098b6df383e1206"
+  },
+  {
+    "url": "/_next/static\\development\\pages\\next\\dist\\pages\\_error.js",
+    "revision": "ea3307ac76b8686648ad"
   }
 ];
 

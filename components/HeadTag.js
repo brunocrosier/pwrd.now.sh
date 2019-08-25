@@ -10,7 +10,7 @@ const HeadTag = () => (
       async
     />
     <link rel="manifest" href="/static/manifest.json" async />
-    <meta name="theme-color" content="#282935" />
+    <meta name="theme-color" content="rgb(131,189,70)" />
 
     <title>Password Kiwi | Secure Password Generator</title>
     <meta name="title" content="Password Kiwi | Secure Password Generator" />

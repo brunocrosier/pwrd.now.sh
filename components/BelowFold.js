@@ -1,5 +1,4 @@
 import styled from "styled-components"
-// import Link from "next/link"
 import SVGIllustration from "./SVGIllustration"
 import WaveSVG from "../components/WaveSVG"
 
@@ -13,7 +12,7 @@ const BelowFoldContainerDiv = styled.div`
   }
 
   #below-fold-root {
-    background: linear-gradient(180deg, #282935, #202025);
+    background: linear-gradient( 180deg, rgb(185,228,139), rgb(131,189,70) );
     padding: 10vh 10vw;
     display: flex;
     flex-direction: column;
@@ -97,9 +96,9 @@ const BelowFold = () => (
         alignSelf: "center"
       }}
     >
-      <p style={{ color: "white" }}>
+      <p style={{ color: "#8ac24f" }}>
         built with ❤ by
-          <a href="https://twitter.com/bruno_crosier" style={{ color: "white" }}> Bruno</a>
+          <a href="https://twitter.com/bruno_crosier" style={{ color: "#8ac24f" }}> Bruno</a>
       </p>
     </div>
   </BelowFoldContainerDiv>

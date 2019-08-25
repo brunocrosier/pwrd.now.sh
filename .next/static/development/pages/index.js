@@ -20,7 +20,7 @@ var _jsxFileName = "C:\\Users\\Bruno\\Documents\\Code\\0208\\password\\component
 
 
 function _templateObject() {
-  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n  display: flex;\n  flex-direction: column;\n  margin-top: -9vh;\n\n  #sitting-on-lock {\n    fill: #292a36;\n  }\n\n  #below-fold-root {\n    background: linear-gradient(180deg, #282935, #202025);\n    padding: 10vh 10vw;\n    display: flex;\n    flex-direction: column;\n    /* transform: skew(0deg,3deg); */\n  }\n\n  .col {\n    width: 100%;\n    display: flex;\n    flex-direction: column;\n    padding: 2%;\n  }\n\n  .right {\n    margin-top: 10vh;\n  }\n\n  p {\n    color: white;\n    width: 100%;\n  }\n\n  h4 a {\n    color: white;\n  }\n\n  h1 {\n    color: white;\n    font-size: 3rem;\n    margin: 0%;\n  }\n\n  /* desktop-specific */\n\n  @media (min-width: 768px) {\n    margin-top: 0vh;\n\n    .col {\n      width: 50%;\n    }\n    #below-fold-root {\n      flex-direction: row;\n    }\n\n    .left {\n      padding-right: 4%;\n    }\n\n    .right {\n      padding-left: 4%;\n      margin-top: 0;\n    }\n  }\n"]);
+  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n  display: flex;\n  flex-direction: column;\n  margin-top: -9vh;\n\n  #sitting-on-lock {\n    fill: #292a36;\n  }\n\n  #below-fold-root {\n    background: linear-gradient( 180deg, rgb(185,228,139), rgb(131,189,70) );\n    padding: 10vh 10vw;\n    display: flex;\n    flex-direction: column;\n  }\n\n  .col {\n    width: 100%;\n    display: flex;\n    flex-direction: column;\n    padding: 2%;\n  }\n\n  .right {\n    margin-top: 10vh;\n  }\n\n  p {\n    color: white;\n    width: 100%;\n  }\n\n  h4 a {\n    color: white;\n  }\n\n  h1 {\n    color: white;\n    font-size: 3rem;\n    margin: 0%;\n  }\n\n  /* desktop-specific */\n\n  @media (min-width: 768px) {\n    margin-top: 0vh;\n\n    .col {\n      width: 50%;\n    }\n    #below-fold-root {\n      flex-direction: row;\n    }\n\n    .left {\n      padding-right: 4%;\n    }\n\n    .right {\n      padding-left: 4%;\n      margin-top: 0;\n    }\n  }\n"]);
 
   _templateObject = function _templateObject() {
     return data;
@@ -29,7 +29,6 @@ function _templateObject() {
   return data;
 }
 
- // import Link from "next/link"
 
 
 
@@ -39,71 +38,71 @@ var BelowFold = function BelowFold() {
   return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(BelowFoldContainerDiv, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 73
+      lineNumber: 71
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_WaveSVG__WEBPACK_IMPORTED_MODULE_4__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 74
+      lineNumber: 72
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
     id: "below-fold-root",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 75
+      lineNumber: 73
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
     className: "col left",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 76
+      lineNumber: 74
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h4", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 77
+      lineNumber: 75
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
     href: "https://github.com/brunocrosier/password.kiwi",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 78
+      lineNumber: 76
     },
     __self: this
   }, "FULLY OPEN SOURCE")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h1", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 80
+      lineNumber: 78
     },
     __self: this
   }, "100% secure"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 81
+      lineNumber: 79
     },
     __self: this
   }, "Every password on this page is created securely, randomly and on-demand by your own device."), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 85
+      lineNumber: 83
     },
     __self: this
-  }, "None of your data ever touches our server. No cookies. No tracking pixels.")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+  }, "None of your data ever touches our server. No cookies. No tracking pixels. No sweat.")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
     className: "col right",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 90
+      lineNumber: 88
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_SVGIllustration__WEBPACK_IMPORTED_MODULE_3__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 91
+      lineNumber: 89
     },
     __self: this
   }))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
@@ -114,26 +113,26 @@ var BelowFold = function BelowFold() {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 94
+      lineNumber: 92
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
     style: {
-      color: "white"
+      color: "#8ac24f"
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 101
+      lineNumber: 99
     },
     __self: this
   }, "built with \u2764 by", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
     href: "https://twitter.com/bruno_crosier",
     style: {
-      color: "white"
+      color: "#8ac24f"
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 104
+      lineNumber: 101
     },
     __self: this
   }, " Bruno"))));
@@ -194,7 +193,7 @@ var HeadTag = function HeadTag() {
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("meta", {
     name: "theme-color",
-    content: "#282935",
+    content: "rgb(131,189,70)",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 13
@@ -505,7 +504,7 @@ var _jsxFileName = "C:\\Users\\Bruno\\Documents\\Code\\0208\\password\\component
 
 
 function _templateObject() {
-  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n  .st0 {\n    fill: #5793ce;\n  }\n  .st1 {\n    fill: #c4d9e8;\n  }\n  .st2 {\n    fill: #f0fbff;\n  }\n  .st3 {\n    fill: #173d7a;\n  }\n  .st4 {\n    fill: #ffffff;\n  }\n  .st5 {\n    fill: #396caa;\n  }\n  .st6 {\n    fill: #d3d0cf;\n  }\n  .st7 {\n    fill: #f2f2f2;\n  }\n  .st8 {\n    fill: #d1b6ff;\n  }\n  .st9 {\n    fill: #a576f5;\n  }\n  .st10 {\n    fill: #274f89;\n  }\n"]);
+  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n\n  filter: hue-rotate(-110deg);\n\n  .st0 {\n    fill: #5793ce;\n  }\n  .st1 {\n    fill: #c4d9e8;\n  }\n  .st2 {\n    fill: #f0fbff;\n  }\n  .st3 {\n    fill: #173d7a;\n  }\n  .st4 {\n    fill: #ffffff;\n  }\n  .st5 {\n    fill: #396caa;\n  }\n  .st6 {\n    fill: #d3d0cf;\n  }\n  .st7 {\n    fill: #f2f2f2;\n  }\n  .st8 {\n    fill: #d1b6ff;\n  }\n  .st9 {\n    fill: #a576f5;\n  }\n  .st10 {\n    fill: #274f89;\n  }\n"]);
 
   _templateObject = function _templateObject() {
     return data;
@@ -524,19 +523,19 @@ var SVGIllustration = function SVGIllustration() {
     viewBox: "0 0 293.4 247.5",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 41
+      lineNumber: 43
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("defs", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 42
+      lineNumber: 44
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("g", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 43
+      lineNumber: 45
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("rect", {
@@ -548,7 +547,7 @@ var SVGIllustration = function SVGIllustration() {
     height: "5.5",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 44
+      lineNumber: 46
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("rect", {
@@ -560,7 +559,7 @@ var SVGIllustration = function SVGIllustration() {
     height: "5.5",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 53
+      lineNumber: 55
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("rect", {
@@ -572,7 +571,7 @@ var SVGIllustration = function SVGIllustration() {
     height: "5.5",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 62
+      lineNumber: 64
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("rect", {
@@ -584,13 +583,13 @@ var SVGIllustration = function SVGIllustration() {
     height: "5.5",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 71
+      lineNumber: 73
     },
     __self: this
   })), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("g", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 80
+      lineNumber: 82
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("path", {
@@ -598,7 +597,7 @@ var SVGIllustration = function SVGIllustration() {
     d: "M136.4,55.1L86,84.6c-12.8-3.9-29.1-2.7-39.8,3.6c-13.1,7.7-13,20,0.2,27.4c3,1.7,6.3,3,9.9,3.9\r c2.5,0.6,5.2,1.1,7.9,1.4c10.5,1,21.7-0.8,29.7-5.6c9.8-5.7,12.2-14,7.3-21l7-4.1l-0.2-4.4l7.3-0.1l-0.2-4.1l7.3-0.1l-0.2-4.1\r l7.3-0.1l-0.2-4.1l7.3-0.1l-0.2-4.1l7.8-0.1l2.4-1.4l2.6-10.9L136.4,55.1z M65.5,111.6c-3.4,2-8.9,2-12.4,0.1\r c-3.4-1.9-3.5-5.1-0.1-7.1c3.4-2,8.9-2,12.4-0.1C68.9,106.4,68.9,109.6,65.5,111.6z",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 81
+      lineNumber: 83
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("path", {
@@ -606,19 +605,19 @@ var SVGIllustration = function SVGIllustration() {
     d: "M164,242.1L96,203c-4.6-2.6-4-7.3,1.3-10.3l66-38.1c5.3-3.1,13.3-3.4,17.9-0.7l68,39.1c4.6,2.6,4,7.3-1.3,10.3\r l-66,38.1C176.6,244.4,168.6,244.7,164,242.1z",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 88
+      lineNumber: 90
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("g", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 93
+      lineNumber: 95
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("g", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 94
+      lineNumber: 96
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("path", {
@@ -626,13 +625,13 @@ var SVGIllustration = function SVGIllustration() {
     d: "M243.7,153.5l-11.8-6.8l43.3-25c2-1.2,2-3.1,0-4.3L231,91.9c-2-1.2-5.4-1.2-7.4,0l-43.3,25l-11.8-6.8\r l43.3-25c8.5-4.9,22.4-4.9,30.9,0l44.3,25.6c8.5,4.9,8.5,12.9,0,17.9L243.7,153.5z",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 95
+      lineNumber: 97
     },
     __self: this
   })), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("g", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 101
+      lineNumber: 103
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("path", {
@@ -640,7 +639,7 @@ var SVGIllustration = function SVGIllustration() {
     d: "M262.7,156.5c0-6.3-3.8-13.6-8.5-16.3l-78.5-45.3c-2.1-1.2-4-1.3-5.5-0.5l0,0l-93.7,54.5l90.6,68.3\r l92.3-53.6c0.3-0.1,0.6-0.3,0.8-0.5l0,0l0,0C261.7,161.9,262.7,159.6,262.7,156.5z",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 102
+      lineNumber: 104
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("path", {
@@ -648,7 +647,7 @@ var SVGIllustration = function SVGIllustration() {
     d: "M167,217.2l92.3-53.6c0.3-0.1,0.6-0.3,0.8-0.5l0,0l0,0c1.5-1.2,2.5-3.5,2.5-6.6c0-3-0.9-6.2-2.3-9.1\r l-105.3,60.8L167,217.2z",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 107
+      lineNumber: 109
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("path", {
@@ -656,7 +655,7 @@ var SVGIllustration = function SVGIllustration() {
     d: "M161.1,216.9l-78.5-45.3c-4.7-2.7-8.5-10-8.5-16.3l0,0c0-6.3,3.8-9.2,8.5-6.4l78.5,45.3\r c4.7,2.7,8.5,10,8.5,16.3l0,0C169.6,216.7,165.8,219.6,161.1,216.9z",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 112
+      lineNumber: 114
     },
     __self: this
   })), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("path", {
@@ -664,19 +663,19 @@ var SVGIllustration = function SVGIllustration() {
     d: "M149.4,201.6l-9.4-5.4c-0.9-0.5-1.7-2-1.7-3.2l0,0c0-1.3,0.8-1.8,1.7-1.3l9.4,5.4c0.9,0.5,1.7,2,1.7,3.2l0,0\r C151.1,201.6,150.3,202.2,149.4,201.6z",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 118
+      lineNumber: 120
     },
     __self: this
   })), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("g", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 124
+      lineNumber: 126
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("g", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 125
+      lineNumber: 127
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("polygon", {
@@ -684,22 +683,10 @@ var SVGIllustration = function SVGIllustration() {
     points: "78.5,42 94.6,51.2 111.1,41.5 111,37.3 110.9,37.4 110.9,37.1 118.2,37.1 118.1,32.9 125.3,32.9 \r 125.3,28.8 132.5,28.7 132.4,24.6 139.6,24.5 139.6,20.4 147.2,20.3 149.6,18.9 152.2,8.1 152.2,3.9 150.9,7.9 139.3,6.4 \t\t\t",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 126
+      lineNumber: 128
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("g", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 131
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("g", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 132
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("g", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 133
@@ -717,24 +704,36 @@ var SVGIllustration = function SVGIllustration() {
       lineNumber: 135
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("polygon", {
-    className: "st2",
-    points: "94.6,47 111,37.3 110.8,32.9 118.1,32.9 118,28.7 125.3,28.7 125.1,24.6 132.4,24.5 \r 132.2,20.4 139.6,20.3 139.4,16.2 147.2,16.1 149.6,14.7 152.2,3.9 139.3,2.2 78.4,37.8 \t\t\t\t\t\t\t\t",
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("g", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 136
     },
     __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("g", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 137
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("polygon", {
+    className: "st2",
+    points: "94.6,47 111,37.3 110.8,32.9 118.1,32.9 118,28.7 125.3,28.7 125.1,24.6 132.4,24.5 \r 132.2,20.4 139.6,20.3 139.4,16.2 147.2,16.1 149.6,14.7 152.2,3.9 139.3,2.2 78.4,37.8 \t\t\t\t\t\t\t\t",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 138
+    },
+    __self: this
   }))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("g", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 143
+      lineNumber: 145
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("g", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 144
+      lineNumber: 146
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("path", {
@@ -742,19 +741,19 @@ var SVGIllustration = function SVGIllustration() {
     d: "M105.5,40.6c-1.7-2.4-4.1-4.6-7.5-6.4c-2.3-1.3-5-2.4-7.7-3.3l-11.9,7L94.6,47L105.5,40.6z",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 145
+      lineNumber: 147
     },
     __self: this
   }))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("g", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 151
+      lineNumber: 153
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("g", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 152
+      lineNumber: 154
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("polygon", {
@@ -762,19 +761,19 @@ var SVGIllustration = function SVGIllustration() {
     points: "151.8,5.7 152.2,3.9 150,3.6 98.6,33.7 101.3,35.3 \t\t\t\t\t\t\t\t",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 153
+      lineNumber: 155
     },
     __self: this
   }))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("g", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 159
+      lineNumber: 161
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("g", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 160
+      lineNumber: 162
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("polygon", {
@@ -782,7 +781,7 @@ var SVGIllustration = function SVGIllustration() {
     points: "39.5,55.3 39.3,49.3 41.2,53.3 \t\t\t\t\t\t\t\t",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 161
+      lineNumber: 163
     },
     __self: this
   }))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("path", {
@@ -790,19 +789,19 @@ var SVGIllustration = function SVGIllustration() {
     d: "M49.4,68.7c13.2,7.5,34.5,7.3,47.5-0.3c6.6-3.8,9.8-8.8,9.7-13.8l0,0l-0.2-6.3l-1.1,1.2\r c-1.5-3.1-4.4-6.1-8.7-8.5c-13.2-7.5-34.5-7.3-47.5,0.3C36.2,48.9,36.3,61.2,49.4,68.7z M68.5,57.6c3.4,1.9,3.5,5.1,0.1,7.1\r c-3.4,2-8.9,2-12.4,0.1c-3.4-1.9-3.5-5.1,0-7.1C59.5,55.6,65,55.6,68.5,57.6z",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 167
+      lineNumber: 169
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("g", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 173
+      lineNumber: 175
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("g", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 174
+      lineNumber: 176
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("path", {
@@ -810,7 +809,7 @@ var SVGIllustration = function SVGIllustration() {
     d: "M49.3,62.8c13.2,7.5,34.5,7.3,47.5-0.3c13.1-7.7,13-20-0.2-27.4c-13.2-7.5-34.5-7.3-47.5,0.3\r C36,43,36.1,55.3,49.3,62.8z M68.3,51.6c3.4,1.9,3.5,5.1,0.1,7.1c-3.4,2-8.9,2-12.4,0.1c-3.4-1.9-3.5-5.1-0.1-7.1\r C59.3,49.7,64.9,49.6,68.3,51.6z",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 175
+      lineNumber: 177
     },
     __self: this
   }))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("path", {
@@ -818,19 +817,19 @@ var SVGIllustration = function SVGIllustration() {
     d: "M64.5,66c-2.9,0.5-6.1,0.1-8.4-1.2c-2.5-1.4-3.2-3.4-2.1-5.2l-6-4.7c0,0-3.1-3.5-6.2-7\r c-4.8,7-2.3,15.3,7.6,20.9c4.3,2.5,9.2,3.9,14.7,4.7L64.5,66z",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 183
+      lineNumber: 185
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("g", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 188
+      lineNumber: 190
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("g", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 189
+      lineNumber: 191
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("path", {
@@ -838,25 +837,25 @@ var SVGIllustration = function SVGIllustration() {
     d: "M49.3,62.8c3,1.7,6.3,3,9.9,3.9c2.5,0.6,5.2,1.1,7.9,1.4c10.5,1,21.7-0.8,29.7-5.6\r c13.1-7.7,13-20-0.2-27.4c-13.2-7.5-34.5-7.3-47.5,0.3C36,43,36.1,55.3,49.3,62.8z M68.3,51.6c3.4,1.9,3.5,5.1,0.1,7.1\r c-3.4,2-8.9,2-12.4,0.1c-3.4-1.9-3.5-5.1-0.1-7.1C59.3,49.7,64.9,49.6,68.3,51.6z",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 190
+      lineNumber: 192
     },
     __self: this
   }))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("g", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 198
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("g", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 199
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("g", {
-    __source: {
-      fileName: _jsxFileName,
       lineNumber: 200
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("g", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 201
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("g", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 202
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("path", {
@@ -864,22 +863,10 @@ var SVGIllustration = function SVGIllustration() {
     d: "M43,49.2c0.6-3.8,3.5-7.6,8.5-10.5c11.6-6.8,30.6-7,42.3-0.3c5.8,3.3,8.8,7.7,8.8,12.1\r c0.8-5-2.1-10.1-8.7-13.9c-11.7-6.7-30.7-6.5-42.3,0.3C45.9,40.2,43,44.7,43,49.2z",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 201
+      lineNumber: 203
     },
     __self: this
   }))))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("g", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 210
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("g", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 211
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("g", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 212
@@ -891,12 +878,24 @@ var SVGIllustration = function SVGIllustration() {
       lineNumber: 213
     },
     __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("g", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 214
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("g", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 215
+    },
+    __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("path", {
     className: "st5",
     d: "M35.1,103.5c-2.4,0-4.6-0.6-6.6-1.7c-4.7-2.7-7.3-8.1-7.4-15.2C21,73.7,30,57.8,41.2,51.2\r c6.1-3.6,12.1-4.1,16.8-1.4c2,1.1,3.7,2.8,4.9,4.9c1.6,2.8,2.5,6.2,2.5,10.3c0.1,12.9-8.9,28.8-20.1,35.4\r C41.8,102.4,38.3,103.5,35.1,103.5z M51.4,52.9c-2.4,0-5,0.8-7.8,2.5c-9.9,5.8-17.8,19.8-17.7,31.2c0,5.3,1.8,9.3,5,11.1\r c3.2,1.8,7.5,1.3,12.1-1.4c9.9-5.8,17.8-19.8,17.7-31.2c0-3.1-0.7-5.9-1.9-7.9l0,0C58,55.7,57,54.7,55.7,54\r C54.4,53.2,53,52.9,51.4,52.9z",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 214
+      lineNumber: 216
     },
     __self: this
   })))))))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("path", {
@@ -904,7 +903,7 @@ var SVGIllustration = function SVGIllustration() {
     d: "M57.6,63.4l9.4,2.3l1.3-7c-3.4,2-8.9,2-12.4,0.1L57.6,63.4z",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 229
+      lineNumber: 231
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("path", {
@@ -912,7 +911,7 @@ var SVGIllustration = function SVGIllustration() {
     d: "M49.3,62.8c3,1.7,6.3,3,9.9,3.9c2.5,0.6,5.2,1.1,7.9,1.4c10.5,1,21.7-0.8,29.7-5.6l-38.2-0.9L49.3,62.8z",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 233
+      lineNumber: 235
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("path", {
@@ -920,7 +919,7 @@ var SVGIllustration = function SVGIllustration() {
     d: "M63.4,67.6c0,0-4.1-0.7-8.3-2.1v5.9c2,0.7,5.3,1.7,8.2,2.1C72,74.6,63.4,67.6,63.4,67.6z",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 237
+      lineNumber: 239
     },
     __self: this
   })), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("path", {
@@ -928,7 +927,7 @@ var SVGIllustration = function SVGIllustration() {
     d: "M57.3,66.1c-1.7-0.5-3.6-1.2-5.4-2c-5.1-2.4,1.4,6.5,1.4,6.5s1.7,0.7,4.1,1.4V66.1z",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 242
+      lineNumber: 244
     },
     __self: this
   })), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("polygon", {
@@ -936,19 +935,19 @@ var SVGIllustration = function SVGIllustration() {
     points: "153.1,169.1 136.4,179.9 128.3,178.6 148.2,169 ",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 247
+      lineNumber: 249
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("g", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 251
+      lineNumber: 253
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("g", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 252
+      lineNumber: 254
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("path", {
@@ -956,7 +955,7 @@ var SVGIllustration = function SVGIllustration() {
     d: "M132.9,223.6c0,0-4.8-2.4-7.8,1.2c-3,3.6-7.2,12.2-7.3,17.9c-0.1,5.8,4.6,5.4,7.4,4\r c2.8-1.4,10.9-13.2,11.4-15.5c0.5-2.3-0.6-5.5-1.4-6.1C134.5,224.5,132.9,223.6,132.9,223.6z",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 253
+      lineNumber: 255
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("path", {
@@ -964,13 +963,13 @@ var SVGIllustration = function SVGIllustration() {
     d: "M134,222.4l0.2,5c0,1.1-0.5,2.1-1.4,2.6c-0.8,0.5-2.1,0.8-3.7,0.6c-3.6-0.6-4-1.6-4.2-6.6\r C124.6,219,134,222.4,134,222.4z",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 258
+      lineNumber: 260
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("g", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 263
+      lineNumber: 265
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("path", {
@@ -978,7 +977,7 @@ var SVGIllustration = function SVGIllustration() {
     d: "M115.3,214c0,0-4.8-2.4-7.8,1.2c-3,3.6-7.2,12.2-7.3,17.9c-0.1,5.8,4.6,5.4,7.4,4\r c2.8-1.4,10.9-13.2,11.4-15.5c0.5-2.3-0.6-5.5-1.4-6.1C116.9,214.9,115.3,214,115.3,214z",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 264
+      lineNumber: 266
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("path", {
@@ -986,7 +985,7 @@ var SVGIllustration = function SVGIllustration() {
     d: "M116.3,212.8l0.2,5c0,1.1-0.5,2.1-1.4,2.6c-0.8,0.5-2.1,0.8-3.7,0.6c-3.6-0.6-4-1.6-4.2-6.6\r C107,209.4,116.3,212.8,116.3,212.8z",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 269
+      lineNumber: 271
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("path", {
@@ -994,7 +993,7 @@ var SVGIllustration = function SVGIllustration() {
     d: "M159.3,121.2c-1.4-23.2-25.1,3.4-25.1,3.4L118,140.5l-14.6,16c-2.9,3.1-4.2,7.4-3.6,11.6l5.9,45\r c0.3,2.2,2.2,3.9,4.4,3.8c0.6,0,1.4-0.1,2.2-0.2c5.3-0.8,4.9-5.8,4.9-5.8l-1.1-42.1l30.7-18.5\r C146.7,150.4,160.7,144.4,159.3,121.2z",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 274
+      lineNumber: 276
     },
     __self: this
   })), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("path", {
@@ -1002,7 +1001,7 @@ var SVGIllustration = function SVGIllustration() {
     d: "M127.8,160.9l-4.4-1.6c-0.1,0-7.4,7.1-7.4,9.5l3.3,1.1l8.2-8L127.8,160.9z",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 281
+      lineNumber: 283
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("path", {
@@ -1010,7 +1009,7 @@ var SVGIllustration = function SVGIllustration() {
     d: "M153.1,169.1c0,0,18.2-10.4,20.4-14.8c0.9-1.7,2.2-3.5-3.1-6.1l-24.3,17.3l1.1,6L153.1,169.1z",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 285
+      lineNumber: 287
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("path", {
@@ -1018,7 +1017,7 @@ var SVGIllustration = function SVGIllustration() {
     d: "M176.9,130.2c-1.5-23.2-25.1,3.4-25.1,3.4l-16.2,15.9l-14.6,16c-2.9,3.1-4.2,7.4-3.6,11.6l5.9,45\r c0.3,2.2,2.2,3.9,4.4,3.8c0.6,0,1.4-0.1,2.2-0.2c5.3-0.8,4.9-5.8,4.9-5.8l-1.1-42.1l30.7-18.5\r C164.4,159.3,178.3,151.4,176.9,130.2z",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 289
+      lineNumber: 291
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("path", {
@@ -1026,7 +1025,7 @@ var SVGIllustration = function SVGIllustration() {
     d: "M162.9,55.6c18,7.4,17.6,18.1,17.6,18.1s-3.5,38.9-2.3,64.9c0.5,10.9-57.7,11.7-49-17.3\r c10.2-34.2,6.4-61.8,11.2-66C145.1,51.1,158.3,53.7,162.9,55.6z",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 295
+      lineNumber: 297
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("path", {
@@ -1034,7 +1033,7 @@ var SVGIllustration = function SVGIllustration() {
     d: "M168.7,65c-0.9,3.6-5.7,5.6-10.7,4.3s-8.2-5.3-7.3-8.9c0.9-3.6,5.7-5.6,10.7-4.3\r C166.4,57.4,169.6,61.4,168.7,65z",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 300
+      lineNumber: 302
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("path", {
@@ -1042,7 +1041,7 @@ var SVGIllustration = function SVGIllustration() {
     d: "M161.1,70.6c-1.1,0-2.1-0.1-3.2-0.4c-2.6-0.7-4.8-2-6.3-3.9c-1.5-1.9-2.1-4.1-1.6-6.1\r c1.1-4.1,6.3-6.3,11.7-4.9c2.6,0.7,4.8,2,6.3,3.9c1.6,1.9,2.1,4.1,1.6,6.1C168.7,68.5,165.2,70.6,161.1,70.6z M158.4,56.6\r c-3.3,0-6.1,1.6-6.8,4c-0.4,1.5,0.1,3.1,1.3,4.6c1.3,1.5,3.2,2.7,5.4,3.3c4.5,1.2,8.8-0.5,9.6-3.7c0.4-1.5-0.1-3.1-1.3-4.6\r c-1.3-1.5-3.2-2.7-5.4-3.3C160.2,56.7,159.3,56.6,158.4,56.6z",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 305
+      lineNumber: 307
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("path", {
@@ -1050,7 +1049,7 @@ var SVGIllustration = function SVGIllustration() {
     d: "M155.7,54.8c0,0,0.2,0.7-0.2,6.4c-0.1,1.8,6.2,3.5,7.8,1.8c1.6-1.6,1-3.3,1.4-9.4\r C165.1,47.6,155.7,54.8,155.7,54.8z",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 312
+      lineNumber: 314
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("path", {
@@ -1058,7 +1057,7 @@ var SVGIllustration = function SVGIllustration() {
     d: "M164.7,53.7c0,0-1.5,5.6-9.1,7.8l0.1-5.1L164.7,53.7z",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 317
+      lineNumber: 319
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("path", {
@@ -1066,7 +1065,7 @@ var SVGIllustration = function SVGIllustration() {
     d: "M169.5,39.3c1.9,7.4-2.5,14.9-9.9,16.8c-7.4,1.9-14.9-2.5-16.8-9.9c-1.9-7.4,2.5-14.9,9.9-16.8\r C160.1,27.5,167.6,31.9,169.5,39.3z",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 321
+      lineNumber: 323
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("path", {
@@ -1074,7 +1073,7 @@ var SVGIllustration = function SVGIllustration() {
     d: "M159.3,43.3c0,0-7.6,3.3-12.9,3.3c-5.3,0-4.1-4.4-4.1-4.4L158,40L159.3,43.3z",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 326
+      lineNumber: 328
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("path", {
@@ -1082,7 +1081,7 @@ var SVGIllustration = function SVGIllustration() {
     d: "M144.9,44.2c0,0,6.6-2.8,12.4-1.6c1.4,0.3,2.6,1,3.5,2.1c0.3,0.4,0.7,0.7,1.1,0.8c1,0.2,2.7-4,4.7-4.1\r c2-0.1,3.3,1.3,1.7,4c-1.6,2.6-1.1,5.6-0.3,6c0.8,0.4,8.8-5.7,1.7-19.7c-7.1-14-25-6.5-27.8-3.6c0,0-2.9,2.6-5.3,0.3\r C136.5,28.1,133.8,48.2,144.9,44.2z",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 330
+      lineNumber: 332
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("path", {
@@ -1090,7 +1089,7 @@ var SVGIllustration = function SVGIllustration() {
     d: "M170.4,102.1v10.5c0,1.2-0.5,2.4-1.4,3.2l-21.6,19.7l2.5,3.8l28.5-20.7c1.3-1,2.2-2.5,2.4-4.1l1.9-18.3\r L170.4,102.1z",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 336
+      lineNumber: 338
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("path", {
@@ -1098,7 +1097,7 @@ var SVGIllustration = function SVGIllustration() {
     d: "M179,68.4c0,0,6.6,9.9,9,35.8c0,0-11.2,3.6-17.5,1.6C164.1,103.7,179,68.4,179,68.4z",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 341
+      lineNumber: 343
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("path", {
@@ -1106,13 +1105,13 @@ var SVGIllustration = function SVGIllustration() {
     d: "M169.2,80.9c0,0-2.6,13.7-2.7,20.2c0,1.8,1,3.4,2.7,4l0,0V80.9z",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 345
+      lineNumber: 347
     },
     __self: this
   })), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("g", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 350
+      lineNumber: 352
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("path", {
@@ -1120,7 +1119,7 @@ var SVGIllustration = function SVGIllustration() {
     d: "M163.6,149.2l-4.8-0.6l-30.8-17.8c-1-0.6-2.7-0.5-3.9,0.2l-21.8,12.6l-2.9-0.4v2.9l0,0c0,0.4,0.2,0.7,0.7,1\r l34.9,20.2c1,0.6,2.7,0.5,3.9-0.2l23.8-13.7c0.6-0.4,1-0.8,0.9-1.3h0V149.2z",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 351
+      lineNumber: 353
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("path", {
@@ -1128,7 +1127,7 @@ var SVGIllustration = function SVGIllustration() {
     d: "M140.5,137.9l-2.2-1.3h-24.1l-11.9,6.8l-2.9-0.4v2.9l0,0c0,0.4,0.2,0.7,0.7,1l34.9,20.2\r c0.5,0.3,1.3,0.4,2,0.4L140.5,137.9z",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 356
+      lineNumber: 358
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("path", {
@@ -1136,7 +1135,7 @@ var SVGIllustration = function SVGIllustration() {
     d: "M100.8,143.3l-1.3-0.2v2.9l0,0c0,0.4,0.2,0.7,0.7,1l0.6,0.4V143.3z",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 361
+      lineNumber: 363
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("path", {
@@ -1144,7 +1143,7 @@ var SVGIllustration = function SVGIllustration() {
     d: "M135.4,167.3c0.9,0.4,2.3,0.3,3.3-0.2v-4.9h-3.3V167.3z",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 365
+      lineNumber: 367
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("path", {
@@ -1152,7 +1151,7 @@ var SVGIllustration = function SVGIllustration() {
     d: "M135.1,164.3l-34.9-20.2c-1-0.6-0.9-1.6,0.3-2.2l23.8-13.7c1.1-0.7,2.9-0.7,3.9-0.2l34.9,20.2\r c1,0.6,0.9,1.6-0.3,2.2l-23.8,13.7C137.8,164.8,136.1,164.9,135.1,164.3z",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 369
+      lineNumber: 371
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("path", {
@@ -1160,7 +1159,7 @@ var SVGIllustration = function SVGIllustration() {
     d: "M134.5,161.2l-29-16.8c-0.8-0.5-0.7-1.3,0.2-1.9l12.7-7.2c0.9-0.5,2.4-0.6,3.2-0.1l29,16.8\r c0.8,0.5,0.7,1.3-0.2,1.9l-12.7,7.2C136.7,161.7,135.3,161.7,134.5,161.2z",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 374
+      lineNumber: 376
     },
     __self: this
   })), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("path", {
@@ -1168,7 +1167,7 @@ var SVGIllustration = function SVGIllustration() {
     d: "M125.5,127.5l-0.4,2.4c-0.3,2.1-0.3,4.1,0.2,6.2l0.4,2.1c0.2,1.2,1.2,2.1,2.4,2.3l0,0c0.9,0.2,1.8-0.5,1.9-1.4\r l0.6-5.2c0,0,1.3,1.7,2,1.7c0.6,0-0.7-5.2-2.2-8.1C129,124.7,125.5,127.5,125.5,127.5z",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 380
+      lineNumber: 382
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("path", {
@@ -1176,13 +1175,13 @@ var SVGIllustration = function SVGIllustration() {
     d: "M137.4,89.2l-3.7,7.4c-0.9,1.8-1.4,3.7-1.5,5.6l-1.6,25.4l-4.9-0.1L123.3,99c-0.1-0.9,0-1.8,0.1-2.6l2.6-14.4\r L137.4,89.2z",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 385
+      lineNumber: 387
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("g", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 390
+      lineNumber: 392
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("path", {
@@ -1190,7 +1189,7 @@ var SVGIllustration = function SVGIllustration() {
     d: "M133.9,166.2l-2.9-3.8l-30.8-17.8c-1-0.6-1.8-2.1-1.8-3.4l0-25.2l-1.8-2.3l1.7-1l0,0c0.3-0.2,0.7-0.2,1.2,0.1\r l34.9,20.2c1,0.6,1.8,2.1,1.8,3.4l0,27.5c0,0.7-0.3,1.3-0.7,1.5h0L133.9,166.2z",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 391
+      lineNumber: 393
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("path", {
@@ -1198,7 +1197,7 @@ var SVGIllustration = function SVGIllustration() {
     d: "M112.6,151.8l-2.2-1.3l-12-20.9l0-13.7l-1.8-2.3l1.7-1l0,0c0.3-0.2,0.7-0.2,1.2,0.1l34.9,20.2\r c0.5,0.3,1,0.9,1.3,1.5L112.6,151.8z",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 396
+      lineNumber: 398
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("path", {
@@ -1206,7 +1205,7 @@ var SVGIllustration = function SVGIllustration() {
     d: "M97.4,114.7l-0.8-1l1.7-1l0,0c0.3-0.2,0.7-0.2,1.2,0.1l0.6,0.4L97.4,114.7z",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 401
+      lineNumber: 403
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("path", {
@@ -1214,7 +1213,7 @@ var SVGIllustration = function SVGIllustration() {
     d: "M134.7,133.2c0.8,0.6,1.4,1.8,1.5,2.9l-3.4,2l-1.6-2.8L134.7,133.2z",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 405
+      lineNumber: 407
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("path", {
@@ -1222,7 +1221,7 @@ var SVGIllustration = function SVGIllustration() {
     d: "M132.7,133.9l-34.9-20.2c-1-0.6-1.8,0-1.8,1.4l0,27.5c0,1.3,0.8,2.8,1.8,3.4l34.9,20.2c1,0.6,1.8,0,1.8-1.4\r l0-27.5C134.5,136,133.7,134.5,132.7,133.9z",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 409
+      lineNumber: 411
     },
     __self: this
   })), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("path", {
@@ -1230,7 +1229,7 @@ var SVGIllustration = function SVGIllustration() {
     d: "M149.9,139.2l-0.6,1.2c-0.6,1.3-1.7,2.5-2.9,3.2l-3.5,2.1c-1.1,0.7-2.4,0.7-3.5,0.1c0,0-0.1,0-0.1-0.1\r c-1.1-0.7-1.2-2.3-0.3-3.2l3.6-3.7c0,0-2,1.6-2.6,0.9c-0.4-0.5,2-2.7,3.8-2.8c1.8-0.1,3.6-1.5,3.6-1.5L149.9,139.2z",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 415
+      lineNumber: 417
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("path", {
@@ -1238,7 +1237,7 @@ var SVGIllustration = function SVGIllustration() {
     d: "M140.7,55.2c0,0-13.3,14.5-18.6,27.7c0,0,4.5,8.2,15.7,11.4C148.9,97.5,140.7,55.2,140.7,55.2z",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 420
+      lineNumber: 422
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("path", {
@@ -1246,7 +1245,7 @@ var SVGIllustration = function SVGIllustration() {
     d: "M135.2,93.5l2.2-20.8l-5.1,19.5C133.2,92.6,134.2,93.1,135.2,93.5z",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 424
+      lineNumber: 426
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("path", {
@@ -1254,7 +1253,7 @@ var SVGIllustration = function SVGIllustration() {
     d: "M150.7,52.3l-3.6-1c0,0,1.7,2.7,4.2,3.4c2.5,0.7,2.9-1.4,2.9-1.4L150.7,52.3z",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 428
+      lineNumber: 430
     },
     __self: this
   })), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("path", {
@@ -1262,7 +1261,7 @@ var SVGIllustration = function SVGIllustration() {
     d: "M82.9,20.4c-5.5,0-10-4.5-10-10c0-5.5,4.5-10,10-10c5.5,0,10,4.5,10,10C92.9,15.9,88.4,20.4,82.9,20.4z\r M82.9,2.6c-4.3,0-7.8,3.5-7.8,7.8c0,4.3,3.5,7.8,7.8,7.8c4.3,0,7.8-3.5,7.8-7.8C90.7,6.1,87.2,2.6,82.9,2.6z",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 433
+      lineNumber: 435
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("path", {
@@ -1270,7 +1269,7 @@ var SVGIllustration = function SVGIllustration() {
     d: "M285,92.4c-3.9,0-7.1-3.2-7.1-7.1s3.2-7.1,7.1-7.1s7.1,3.2,7.1,7.1S288.9,92.4,285,92.4z M285,80.4\r c-2.7,0-4.9,2.2-4.9,4.9c0,2.7,2.2,4.9,4.9,4.9c2.7,0,4.9-2.2,4.9-4.9C289.9,82.6,287.7,80.4,285,80.4z",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 438
+      lineNumber: 440
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("path", {
@@ -1278,7 +1277,7 @@ var SVGIllustration = function SVGIllustration() {
     d: "M52.6,220.5l-4.8-9.8l9.8-4.8l4.8,9.8L52.6,220.5z M50.7,211.7l2.9,5.9l5.9-2.9l-2.9-5.9L50.7,211.7z",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 443
+      lineNumber: 445
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("path", {
@@ -1286,7 +1285,7 @@ var SVGIllustration = function SVGIllustration() {
     d: "M194.6,68.8l-4.8-9.8l9.8-4.8l4.8,9.8L194.6,68.8z M192.7,60l2.9,5.9l5.9-2.9l-2.9-5.9L192.7,60z",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 447
+      lineNumber: 449
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("rect", {
@@ -1298,19 +1297,19 @@ var SVGIllustration = function SVGIllustration() {
     height: "5",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 451
+      lineNumber: 453
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("g", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 459
+      lineNumber: 461
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("g", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 460
+      lineNumber: 462
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("path", {
@@ -1318,7 +1317,7 @@ var SVGIllustration = function SVGIllustration() {
     d: "M215.8,15.7L189,0.3c-0.5-0.3-1-0.3-1.4-0.1c0,0,0,0,0,0l-2.6,1.5c0,0,1.1,0.4,1.8,0.7v19.5\r c0,1.6,1,3.4,2.2,4.1l25.6,14.8v2.3l2.6-1.5l0,0c0.4-0.3,0.7-0.9,0.7-1.7V19.8C217.9,18.2,217,16.4,215.8,15.7z",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 461
+      lineNumber: 463
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("path", {
@@ -1326,13 +1325,13 @@ var SVGIllustration = function SVGIllustration() {
     d: "M213.1,42.8l-26.7-15.4c-1.2-0.7-2.2-2.5-2.2-4.1V3.4c0-1.6,1-2.3,2.2-1.6l26.7,15.4c1.2,0.7,2.2,2.5,2.2,4.1\r v19.9C215.3,42.8,214.3,43.5,213.1,42.8z",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 466
+      lineNumber: 468
     },
     __self: this
   })), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("g", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 472
+      lineNumber: 474
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("path", {
@@ -1340,7 +1339,7 @@ var SVGIllustration = function SVGIllustration() {
     d: "M195.4,20.5c0,1.2-0.8,1.6-1.8,1c-1-0.6-1.8-2-1.8-3.1c0-1.2,0.8-1.6,1.8-1C194.6,18,195.4,19.4,195.4,20.5z",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 473
+      lineNumber: 475
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("path", {
@@ -1348,7 +1347,7 @@ var SVGIllustration = function SVGIllustration() {
     d: "M200.8,23.7c0,1.2-0.8,1.6-1.8,1s-1.8-2-1.8-3.1c0-1.2,0.8-1.6,1.8-1C200,21.1,200.8,22.5,200.8,23.7z",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 477
+      lineNumber: 479
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("path", {
@@ -1356,19 +1355,19 @@ var SVGIllustration = function SVGIllustration() {
     d: "M206.3,26.9c0,1.2-0.8,1.6-1.8,1c-1-0.6-1.8-2-1.8-3.1c0-1.2,0.8-1.6,1.8-1C205.5,24.3,206.3,25.7,206.3,26.9\r z",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 481
+      lineNumber: 483
     },
     __self: this
   }))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("g", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 488
+      lineNumber: 490
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("g", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 489
+      lineNumber: 491
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("path", {
@@ -1376,7 +1375,7 @@ var SVGIllustration = function SVGIllustration() {
     d: "M30.9,184.8L4.7,169.7c-0.5-0.3-1-0.3-1.4-0.1c0,0,0,0,0,0L0.8,171c0,0,1.1,0.4,1.8,0.7v19.1\r c0,1.6,0.9,3.4,2.1,4l25.1,14.5v2.2l2.6-1.5l0,0c0.4-0.3,0.7-0.8,0.7-1.7v-19.5C33,187.3,32.1,185.5,30.9,184.8z",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 490
+      lineNumber: 492
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("path", {
@@ -1384,13 +1383,13 @@ var SVGIllustration = function SVGIllustration() {
     d: "M28.3,211.5L2.1,196.3c-1.2-0.7-2.1-2.5-2.1-4v-19.5c0-1.6,0.9-2.3,2.1-1.6l26.2,15.1c1.2,0.7,2.1,2.5,2.1,4\r v19.5C30.5,211.4,29.5,212.1,28.3,211.5z",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 495
+      lineNumber: 497
     },
     __self: this
   })), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("g", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 501
+      lineNumber: 503
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("path", {
@@ -1398,7 +1397,7 @@ var SVGIllustration = function SVGIllustration() {
     d: "M10.9,189.6c0,1.1-0.8,1.6-1.8,1c-1-0.6-1.8-1.9-1.8-3.1c0-1.1,0.8-1.6,1.8-1\r C10.1,187.1,10.9,188.5,10.9,189.6z",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 502
+      lineNumber: 504
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("path", {
@@ -1406,7 +1405,7 @@ var SVGIllustration = function SVGIllustration() {
     d: "M16.3,192.7c0,1.1-0.8,1.6-1.8,1c-1-0.6-1.8-1.9-1.8-3.1c0-1.1,0.8-1.6,1.8-1\r C15.5,190.2,16.3,191.6,16.3,192.7z",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 507
+      lineNumber: 509
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("path", {
@@ -1414,7 +1413,7 @@ var SVGIllustration = function SVGIllustration() {
     d: "M21.7,195.8c0,1.1-0.8,1.6-1.8,1c-1-0.6-1.8-1.9-1.8-3.1c0-1.1,0.8-1.6,1.8-1\r C20.9,193.3,21.7,194.7,21.7,195.8z",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 512
+      lineNumber: 514
     },
     __self: this
   }))));
@@ -1442,7 +1441,7 @@ var _jsxFileName = "C:\\Users\\Bruno\\Documents\\Code\\0208\\password\\component
 
 
 function _templateObject() {
-  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n  fill: #282935;\n"]);
+  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n  fill: #b9e48b;\n"]);
 
   _templateObject = function _templateObject() {
     return data;
@@ -36905,7 +36904,7 @@ var _jsxFileName = "C:\\Users\\Bruno\\Documents\\Code\\0208\\password\\pages\\in
 
 
 function _templateObject2() {
-  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n  div {\n    background: transparent;\n    flex-grow: 0;\n    padding: 6px 36px;\n  }\n  .MuiTypography-root {\n    background: ", ";\n  }\n  span {\n    font-family: \"Google Sans\";\n  }\n"]);
+  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n  div {\n    background: transparent;\n    flex-grow: 0;\n    padding: 6px 36px;\n  }\n  .MuiTypography-root {\n    background: ", ";\n    box-shadow: none;\n    border-radius: 30px;\n  }\n  span {\n    font-family: \"Google Sans\";\n  }\n"]);
 
   _templateObject2 = function _templateObject2() {
     return data;
@@ -36915,7 +36914,7 @@ function _templateObject2() {
 }
 
 function _templateObject() {
-  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n  /* @import url(\"https://fonts.googleapis.com/css?family=Josefin+Sans:400,700&display=swap\"); */\n\n  /* @import url('https://fonts.googleapis.com/css?family=Product+Sans:400,700&display=swap'); */\n\n  @import url(\"https://fonts.googleapis.com/css?family=Google+Sans:400,700&display=swap\");\n\n  #menu-bar {\n    display: flex;\n    align-content: center;\n    flex-direction: column;\n    justify-content: center;\n    position: sticky;\n    top: 0px;\n    z-index: 10;\n    box-shadow: 0px 0px 1px #1ac3e138;\n    background: #00000014;\n    height: 10vh;\n  }\n\n  .scrolled-menu-bar {\n    box-shadow: 0px 0px 7px #31313138 !important;\n    background: linear-gradient(0deg, #202025, #282935) !important;\n  }\n\n  #main-box {\n    display: flex;\n    flex-direction: column;\n    text-align: center;\n    align-self: center;\n    justify-content: center;\n    justify-items: center;\n    width: 100%;\n    height: 100vh;\n    margin-top: -13vh;\n    background-image: url(\"../static/shape-1.png\");\n    background-repeat: no-repeat;\n    background-size: contain;\n    background-position: top right;\n  }\n\n  button#generated-password-input {\n    border-radius: 50vw;\n    font-size: 30px;\n    height: 80px;\n    text-align: center;\n    letter-spacing: 5px;\n    border: 0px solid transparent;\n    box-shadow: 0px 2px 10px #44444442;\n    padding: 10px 40px 10px 40px;\n    font-weight: 700;\n    color: white;\n    -webkit-tap-highlight-color: transparent;\n    justify-self: center;\n    align-self: center;\n    max-width: 100%;\n  }\n\n  button#generated-password-input:focus {\n    outline: 1px transparent solid;\n  }\n  button#generated-password-input:hover {\n    cursor: pointer;\n  }\n  h1#menu-title {\n    padding: 1vh 0vh;\n    color: white;\n    text-align: center;\n    display: flex;\n    justify-content: center;\n    align-items: center;\n  }\n  p {\n    -webkit-tap-highlight-color: transparent;\n    font-size: 1.05rem;\n  }\n  #app-container {\n    display: flex;\n    flex-direction: column;\n    align-content: center;\n    min-height: 100vh;\n    background: linear-gradient(129deg, #292929, #272727);\n  }\n\n  body {\n    margin: 0px;\n  }\n\n  h1,\n  h2,\n  h3,\n  h4,\n  h5,\n  h6,\n  button {\n    font-family: \"Google Sans\", sans-serif;\n  }\n\n  p {\n    font-family: \"Google Sans\", sans-serif;\n  }\n\n  a {\n    color: ", ";\n    text-decoration: none;\n    font-weight: bold;\n  }\n\n  h4#click-to-copy {\n    color: ", ";\n    text-transform: uppercase;\n    letter-spacing: 7px;\n    opacity: 0.8;\n  }\n\n  .text-container {\n    display: flex;\n    padding: 2vh 8vw;\n    border-radius: 20px;\n    font-family: \"Colfax\";\n    align-self: center;\n    max-width: 100%;\n  }\n\n  #input-component {\n    display: flex;\n    flex-direction: column;\n    z-index: 2;\n    padding: 5vh;\n    width: 100vw;\n    align-self: center;\n    background: linear-gradient(45deg, #335fdc52, #4c4c4c08);\n    border-radius: 20px;\n    box-shadow: 0px 5px 5px #18191957;\n  }\n\n  .gradient-bg {\n    background: ", ";\n  }\n\n  .input-gradient-bg {\n    background: ", ";\n  }\n\n  .clip-text {\n    background-clip: text;\n    -webkit-background-clip: text;\n    -webkit-text-fill-color: transparent;\n  }\n\n  @media (min-width: 768px) {\n    #input-component {\n      width: 67vw;\n    }\n\n    #main-box {\n      margin-top: -10vh;\n    }\n  }\n\n  @media (orientation: landscape) {\n    #generated-password-input {\n      max-width: 50vw;\n    }\n  }\n"]);
+  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n  @import url(\"https://fonts.googleapis.com/css?family=Google+Sans:400,700&display=swap\");\n\n  #menu-bar {\n    display: flex;\n    align-content: center;\n    flex-direction: column;\n    justify-content: center;\n    position: sticky;\n    top: 0px;\n    z-index: 10;\n    box-shadow: 0px 0px 1px #1ac3e138;\n    background: linear-gradient(23deg, rgb(185, 228, 139), rgb(131, 189, 70));\n    height: 10vh;\n  }\n\n  .scrolled-menu-bar {\n    box-shadow: 0px 0px 7px #31313138 !important;\n    background: linear-gradient(\n      23deg,\n      rgb(185, 228, 139),\n      rgb(131, 189, 70)\n    ) !important;\n  }\n\n  #main-box {\n    display: flex;\n    flex-direction: column;\n    text-align: center;\n    align-self: center;\n    justify-content: center;\n    justify-items: center;\n    width: 100%;\n    height: 100vh;\n    margin-top: -13vh;\n    /* background-image: url(\"../static/shape-2.png\"); */\n    background-repeat: no-repeat;\n    background-size: contain;\n    background-position: top right;\n  }\n\n  button#generated-password-input {\n    border-radius: 50vw;\n    font-size: 30px;\n    height: 80px;\n    text-align: center;\n    letter-spacing: 5px;\n    border: 0px solid transparent;\n    box-shadow: 0px 2px 10px #44444442;\n    padding: 10px 40px 10px 40px;\n    font-weight: 700;\n    color: white;\n    -webkit-tap-highlight-color: transparent;\n    justify-self: center;\n    align-self: center;\n    max-width: 100%;\n  }\n\n  button#generated-password-input:focus {\n    outline: 1px transparent solid;\n  }\n  button#generated-password-input:hover {\n    cursor: pointer;\n  }\n  h1#menu-title {\n    padding: 1vh 0vh;\n    color: white;\n    text-align: center;\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    /* text-shadow: 0px 1px 2px #79ab03; */\n  }\n  p {\n    -webkit-tap-highlight-color: transparent;\n    font-size: 1.05rem;\n  }\n  #app-container {\n    display: flex;\n    flex-direction: column;\n    align-content: center;\n    min-height: 100vh;\n    background: linear-gradient(129deg, rgb(255, 255, 255), rgb(245, 245, 245));\n  }\n\n  body {\n    margin: 0px;\n  }\n\n  h1,\n  h2,\n  h3,\n  h4,\n  h5,\n  h6,\n  button {\n    font-family: \"Google Sans\", sans-serif;\n  }\n\n  p {\n    font-family: \"Google Sans\", sans-serif;\n  }\n\n  a {\n    color: #8ac24f;\n    text-decoration: none;\n    font-weight: bold;\n  }\n\n  h4#click-to-copy {\n    color: #8ac24f;\n    text-transform: uppercase;\n    letter-spacing: 7px;\n    opacity: 0.8;\n  }\n\n  .text-container {\n    display: flex;\n    padding: 2vh 8vw;\n    border-radius: 20px;\n    font-family: \"Colfax\";\n    align-self: center;\n    max-width: 100%;\n  }\n\n  #input-component {\n    display: flex;\n    flex-direction: column;\n    z-index: 2;\n    padding: 5vh;\n    width: 100vw;\n    align-self: center;\n    /* background: linear-gradient(45deg, #335fdc52, #4c4c4c08); */\n    border-radius: 20px;\n    /* box-shadow: 0px 5px 5px #18191957; */\n  }\n\n  .gradient-bg {\n    background: ", ";\n  }\n\n  .input-gradient-bg {\n    background: ", ";\n  }\n\n  .clip-text {\n    background-clip: text;\n    -webkit-background-clip: text;\n    -webkit-text-fill-color: transparent;\n  }\n\n  @media (min-width: 768px) {\n    #input-component {\n      width: 67vw;\n    }\n\n    #main-box {\n      margin-top: -10vh;\n    }\n  }\n\n  @media (orientation: landscape) {\n    #generated-password-input {\n      max-width: 50vw;\n    }\n  }\n"]);
 
   _templateObject = function _templateObject() {
     return data;
@@ -36975,7 +36974,7 @@ var Home = function Home() {
       topbarcolor: "#2f3437",
       background: "#2f3437",
       gradientBg: "26deg,#ffffff 0%,#afafaf 100%",
-      inputGradientBg: "26deg, #00dbde 0%, #fc00ff 100%",
+      inputGradientBg: "23deg,rgb(185,228,139),rgb(131,189,70)",
       inputBoxShadow: "#0a0a0a42",
       overlayBoxShadow: "#0a0a0a42",
       snackbarBackground: "#5eab3e"
@@ -37076,8 +37075,7 @@ var Home = function Home() {
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("h1", {
     style: {
-      color: "white",
-      textShadow: "0px 1px 3px #1face1"
+      color: "#8ac24f"
     },
     className: "jsx-2921363383",
     __source: {
@@ -37108,21 +37106,16 @@ var Home = function Home() {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 89
+      lineNumber: 85
     },
     __self: this
   }, password), react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("h4", {
-    id: "click-to-copy",
-    style: {
-      color: "white"
-    },
-    onClick: function onClick() {
-      return generateAndCopyPassword();
-    },
+    id: "click-to-copy" // onClick={() => generateAndCopyPassword()}
+    ,
     className: "jsx-2921363383",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 106
+      lineNumber: 102
     },
     __self: this
   }, "click to copy"))), react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(StyledSnack, {
@@ -37138,43 +37131,37 @@ var Home = function Home() {
       className: "jsx-2921363383",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 124
+        lineNumber: 119
       },
       __self: this
     }, "copied to clipboard!"),
     onClose: handleSnackbarClose,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 116
+      lineNumber: 111
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_components_BelowFold__WEBPACK_IMPORTED_MODULE_13__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 128
+      lineNumber: 123
     },
     __self: this
   }))), react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(styled_jsx_style__WEBPACK_IMPORTED_MODULE_2___default.a, {
     id: "2921363383",
     __self: this
-  }, "body{margin:0;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkM6XFxVc2Vyc1xcQnJ1bm9cXERvY3VtZW50c1xcQ29kZVxcMDIwOFxccGFzc3dvcmRcXHBhZ2VzXFxpbmRleC5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFrSWtCLEFBR29CLFNBQ1giLCJmaWxlIjoiQzpcXFVzZXJzXFxCcnVub1xcRG9jdW1lbnRzXFxDb2RlXFwwMjA4XFxwYXNzd29yZFxccGFnZXNcXGluZGV4LmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHsgdXNlU3RhdGUsIHVzZVJlZiwgdXNlRWZmZWN0IH0gZnJvbSBcInJlYWN0XCJcclxuaW1wb3J0IHJhbmRvbWl6ZSBmcm9tIFwicmFuZG9tYXRpY1wiXHJcbmltcG9ydCBSb3V0ZXIgZnJvbSBcIm5leHQvcm91dGVyXCJcclxuaW1wb3J0IHsgbW90aW9uIH0gZnJvbSBcImZyYW1lci1tb3Rpb25cIlxyXG5pbXBvcnQgSGVhZFRhZyBmcm9tIFwiLi4vY29tcG9uZW50cy9IZWFkVGFnXCJcclxuaW1wb3J0IHN0eWxlZCBmcm9tIFwic3R5bGVkLWNvbXBvbmVudHNcIlxyXG5pbXBvcnQgQ3NzQmFzZWxpbmUgZnJvbSBcIkBtYXRlcmlhbC11aS9jb3JlL0Nzc0Jhc2VsaW5lXCJcclxuaW1wb3J0IFNuYWNrYmFyIGZyb20gXCJAbWF0ZXJpYWwtdWkvY29yZS9TbmFja2JhclwiXHJcbmltcG9ydCB7IHVzZVNjcm9sbFlQb3NpdGlvbiB9IGZyb20gXCJyZWFjdC11c2Utc2Nyb2xsLXBvc2l0aW9uXCJcclxuaW1wb3J0IFJlYWN0Rml0VGV4dCBmcm9tIFwicmVhY3QtZml0dGV4dFwiXHJcbmltcG9ydCBCZWxvd0ZvbGQgZnJvbSBcIi4uL2NvbXBvbmVudHMvQmVsb3dGb2xkXCJcclxuaW1wb3J0IExvZ28gZnJvbSBcIi4uL2NvbXBvbmVudHMvTG9nb1wiXHJcblxyXG5pbXBvcnQgdXNlQ2xpcGJvYXJkIGZyb20gXCJyZWFjdC11c2UtY2xpcGJvYXJkXCJcclxuXHJcbmNvbnN0IEhvbWUgPSAoKSA9PiB7XHJcbiAgY29uc3QgaW5pdGlhbFBhc3N3b3JkID1cclxuICAgIHByb2Nlc3MuYnJvd3NlciAhPT0gdW5kZWZpbmVkID8gcmFuZG9taXplKFwiQWEwIVwiLCAxMCkgOiBudWxsXHJcbiAgY29uc3QgW3Bhc3N3b3JkLCBzZXRQYXNzd29yZF0gPSB1c2VTdGF0ZShpbml0aWFsUGFzc3dvcmQpXHJcblxyXG4gIGNvbnN0IFtzbmFja2JhcklzT3Blbiwgc2V0U25hY2tiYXJJc09wZW5dID0gdXNlU3RhdGUoZmFsc2UpXHJcbiAgY29uc3QgcGFzc3dvcmRJbnB1dFJlZiA9IHVzZVJlZihudWxsKVxyXG5cclxuICBjb25zdCBzY3JvbGxZUHJvZ3Jlc3MgPSB1c2VTY3JvbGxZUG9zaXRpb24oKVxyXG5cclxuICBjb25zdCBbaXNDb3BpZWQsIHNldENvcGllZF0gPSB1c2VDbGlwYm9hcmQocGFzc3dvcmQpXHJcblxyXG4gIGNvbnN0IHRoZW1lcyA9IHtcclxuICAgIGRlZmF1bHQ6IHtcclxuICAgICAgbmFtZTogXCJkZWZhdWx0XCIsXHJcbiAgICAgIHRvcGJhcmNvbG9yOiBcIiMzMzMzMzNcIixcclxuICAgICAgYmFja2dyb3VuZDogXCJ3aGl0ZVwiLFxyXG4gICAgICBncmFkaWVudEJnOiBcIjI2ZGVnLCAjMDBkYmRlIDAlLCAjZmMwMGZmIDEwMCVcIixcclxuICAgICAgaW5wdXRHcmFkaWVudEJnOiBcIjI2ZGVnLCAjMDBkYmRlIDAlLCAjZmMwMGZmIDEwMCVcIixcclxuICAgICAgaW5wdXRCb3hTaGFkb3c6IFwiI2ZmZmZmZjQyXCIsXHJcbiAgICAgIG92ZXJsYXlCb3hTaGFkb3c6IFwiI2EzYjFkODQyXCIsXHJcbiAgICAgIHNuYWNrYmFyQmFja2dyb3VuZDogXCIjMzMzMzMzXCJcclxuICAgIH0sXHJcbiAgICBkYXJrOiB7XHJcbiAgICAgIG5hbWU6IFwiZGFya1wiLFxyXG4gICAgICB0b3BiYXJjb2xvcjogXCIjMmYzNDM3XCIsXHJcbiAgICAgIGJhY2tncm91bmQ6IFwiIzJmMzQzN1wiLFxyXG4gICAgICBncmFkaWVudEJnOiBcIjI2ZGVnLCNmZmZmZmYgMCUsI2FmYWZhZiAxMDAlXCIsXHJcbiAgICAgIGlucHV0R3JhZGllbnRCZzogXCIyNmRlZywgIzAwZGJkZSAwJSwgI2ZjMDBmZiAxMDAlXCIsXHJcbiAgICAgIGlucHV0Qm94U2hhZG93OiBcIiMwYTBhMGE0MlwiLFxyXG4gICAgICBvdmVybGF5Qm94U2hhZG93OiBcIiMwYTBhMGE0MlwiLFxyXG4gICAgICBzbmFja2JhckJhY2tncm91bmQ6IFwiIzVlYWIzZVwiXHJcbiAgICB9XHJcbiAgfVxyXG5cclxuICBjb25zdCBbY29sb3JzY2hlbWUsIHNldGNvbG9yc2NoZW1lXSA9IHVzZVN0YXRlKHRoZW1lcy5kYXJrKVxyXG5cclxuICBjb25zdCBnZW5lcmF0ZUFuZENvcHlQYXNzd29yZCA9IChwYXR0ZXJuLCBsZW5ndGgpID0+IHtcclxuICAgIHNldFBhc3N3b3JkKHJhbmRvbWl6ZShcIkFhMCFcIiwgMTApKVxyXG4gICAgcGFzc3dvcmRJbnB1dFJlZi5jdXJyZW50LnNlbGVjdCgpXHJcbiAgICBkb2N1bWVudC5leGVjQ29tbWFuZChcImNvcHlcIilcclxuICAgIHNldFNuYWNrYmFySXNPcGVuKHRydWUpXHJcbiAgfVxyXG5cclxuICBjb25zdCBoYW5kbGVTbmFja2JhckNsb3NlID0gKCkgPT4gc2V0U25hY2tiYXJJc09wZW4oZmFsc2UpXHJcblxyXG4gIHJldHVybiAoXHJcbiAgICA8PlxyXG4gICAgICA8Q3NzQmFzZWxpbmUgLz5cclxuICAgICAgPEhlYWRUYWcgLz5cclxuXHJcbiAgICAgIDxBcHBDb250YWluZXIgY29sb3JzY2hlbWU9e2NvbG9yc2NoZW1lfT5cclxuICAgICAgICA8ZGl2IGlkPVwiYXBwLWNvbnRhaW5lclwiPlxyXG4gICAgICAgICAgPGRpdlxyXG4gICAgICAgICAgICBpZD1cIm1lbnUtYmFyXCJcclxuICAgICAgICAgICAgY2xhc3NOYW1lPXtzY3JvbGxZUHJvZ3Jlc3MgPCAxID8gXCJcIiA6IFwic2Nyb2xsZWQtbWVudS1iYXJcIn1cclxuICAgICAgICAgID5cclxuICAgICAgICAgICAgPGgxIGlkPVwibWVudS10aXRsZVwiIG9uQ2xpY2s9eygpID0+IFJvdXRlci5yZWxvYWQoKX0+XHJcbiAgICAgICAgICAgICAgcGFzc3dvcmQua2l3aVxyXG4gICAgICAgICAgICAgIDxMb2dvIC8+XHJcbiAgICAgICAgICAgIDwvaDE+XHJcbiAgICAgICAgICA8L2Rpdj5cclxuXHJcbiAgICAgICAgICA8ZGl2IGlkPVwibWFpbi1ib3hcIj5cclxuICAgICAgICAgICAgPGRpdiBpZD1cImlucHV0LWNvbXBvbmVudFwiPlxyXG4gICAgICAgICAgICAgIDxSZWFjdEZpdFRleHQgY29tcHJlc3Nvcj17MS41fSBtYXhGb250U2l6ZT17NDV9PlxyXG4gICAgICAgICAgICAgICAgPGgxXHJcbiAgICAgICAgICAgICAgICAgIHN0eWxlPXt7IGNvbG9yOiBcIndoaXRlXCIsIHRleHRTaGFkb3c6IFwiMHB4IDFweCAzcHggIzFmYWNlMVwiIH19XHJcbiAgICAgICAgICAgICAgICA+XHJcbiAgICAgICAgICAgICAgICAgIHNlY3VyZSBwYXNzd29yZCBnZW5lcmF0b3JcclxuICAgICAgICAgICAgICAgIDwvaDE+XHJcbiAgICAgICAgICAgICAgPC9SZWFjdEZpdFRleHQ+XHJcblxyXG4gICAgICAgICAgICAgIDxtb3Rpb24uYnV0dG9uXHJcbiAgICAgICAgICAgICAgICBpZD1cImdlbmVyYXRlZC1wYXNzd29yZC1pbnB1dFwiXHJcbiAgICAgICAgICAgICAgICBuYW1lPVwiZ2VuZXJhdGVkLXBhc3N3b3JkXCJcclxuICAgICAgICAgICAgICAgIGFyaWEtbGFiZWw9XCJnZW5lcmF0ZWQtcGFzc3dvcmRcIlxyXG4gICAgICAgICAgICAgICAgY2xhc3NOYW1lPVwiaW5wdXQtZ3JhZGllbnQtYmdcIlxyXG4gICAgICAgICAgICAgICAgb25DbGljaz17KCkgPT4ge1xyXG4gICAgICAgICAgICAgICAgICBzZXRDb3BpZWQoKVxyXG4gICAgICAgICAgICAgICAgICBzZXRQYXNzd29yZChyYW5kb21pemUoXCJBYTAhXCIsIDEwKSlcclxuICAgICAgICAgICAgICAgICAgc2V0U25hY2tiYXJJc09wZW4odHJ1ZSlcclxuICAgICAgICAgICAgICAgIH19XHJcbiAgICAgICAgICAgICAgICB3aGlsZUhvdmVyPXt7IHNjYWxlOiAxLjA1IH19XHJcbiAgICAgICAgICAgICAgICB3aGlsZVRhcD17eyBzY2FsZTogMC45NSwgZmlsdGVyOiBcImJsdXIoM3B4KVwiIH19XHJcbiAgICAgICAgICAgICAgICB0cmFuc2l0aW9uPXt7IGVhc2U6IFwiZWFzZU91dFwiLCBkdXJhdGlvbjogMC4zIH19XHJcbiAgICAgICAgICAgICAgPlxyXG4gICAgICAgICAgICAgICAge3Bhc3N3b3JkfVxyXG4gICAgICAgICAgICAgIDwvbW90aW9uLmJ1dHRvbj5cclxuXHJcbiAgICAgICAgICAgICAgPGg0XHJcbiAgICAgICAgICAgICAgICBpZD1cImNsaWNrLXRvLWNvcHlcIlxyXG4gICAgICAgICAgICAgICAgc3R5bGU9e3sgY29sb3I6IFwid2hpdGVcIiB9fVxyXG4gICAgICAgICAgICAgICAgb25DbGljaz17KCkgPT4gZ2VuZXJhdGVBbmRDb3B5UGFzc3dvcmQoKX1cclxuICAgICAgICAgICAgICA+XHJcbiAgICAgICAgICAgICAgICBjbGljayB0byBjb3B5XHJcbiAgICAgICAgICAgICAgPC9oND5cclxuICAgICAgICAgICAgPC9kaXY+XHJcbiAgICAgICAgICA8L2Rpdj5cclxuXHJcbiAgICAgICAgICA8U3R5bGVkU25hY2tcclxuICAgICAgICAgICAgYW5jaG9yT3JpZ2luPXt7XHJcbiAgICAgICAgICAgICAgdmVydGljYWw6IFwiYm90dG9tXCIsXHJcbiAgICAgICAgICAgICAgaG9yaXpvbnRhbDogXCJjZW50ZXJcIlxyXG4gICAgICAgICAgICB9fVxyXG4gICAgICAgICAgICBjb2xvcnNjaGVtZT17Y29sb3JzY2hlbWV9XHJcbiAgICAgICAgICAgIG9wZW49e3NuYWNrYmFySXNPcGVufVxyXG4gICAgICAgICAgICBhdXRvSGlkZUR1cmF0aW9uPXsxMDAwfVxyXG4gICAgICAgICAgICBtZXNzYWdlPXs8c3BhbiBpZD1cIm1lc3NhZ2UtaWRcIj5jb3BpZWQgdG8gY2xpcGJvYXJkITwvc3Bhbj59XHJcbiAgICAgICAgICAgIG9uQ2xvc2U9e2hhbmRsZVNuYWNrYmFyQ2xvc2V9XHJcbiAgICAgICAgICAvPlxyXG5cclxuICAgICAgICAgIDxCZWxvd0ZvbGQgLz5cclxuICAgICAgICA8L2Rpdj5cclxuICAgICAgPC9BcHBDb250YWluZXI+XHJcbiAgICAgIDxzdHlsZSBqc3g+e2BcclxuICAgICAgICA6Z2xvYmFsKGJvZHkpIHtcclxuICAgICAgICAgIG1hcmdpbjogMDtcclxuICAgICAgICB9XHJcbiAgICAgIGB9PC9zdHlsZT5cclxuICAgIDwvPlxyXG4gIClcclxufVxyXG5cclxuY29uc3QgQXBwQ29udGFpbmVyID0gc3R5bGVkLmRpdmBcclxuICAvKiBAaW1wb3J0IHVybChcImh0dHBzOi8vZm9udHMuZ29vZ2xlYXBpcy5jb20vY3NzP2ZhbWlseT1Kb3NlZmluK1NhbnM6NDAwLDcwMCZkaXNwbGF5PXN3YXBcIik7ICovXHJcblxyXG4gIC8qIEBpbXBvcnQgdXJsKCdodHRwczovL2ZvbnRzLmdvb2dsZWFwaXMuY29tL2Nzcz9mYW1pbHk9UHJvZHVjdCtTYW5zOjQwMCw3MDAmZGlzcGxheT1zd2FwJyk7ICovXHJcblxyXG4gIEBpbXBvcnQgdXJsKFwiaHR0cHM6Ly9mb250cy5nb29nbGVhcGlzLmNvbS9jc3M/ZmFtaWx5PUdvb2dsZStTYW5zOjQwMCw3MDAmZGlzcGxheT1zd2FwXCIpO1xyXG5cclxuICAjbWVudS1iYXIge1xyXG4gICAgZGlzcGxheTogZmxleDtcclxuICAgIGFsaWduLWNvbnRlbnQ6IGNlbnRlcjtcclxuICAgIGZsZXgtZGlyZWN0aW9uOiBjb2x1bW47XHJcbiAgICBqdXN0aWZ5LWNvbnRlbnQ6IGNlbnRlcjtcclxuICAgIHBvc2l0aW9uOiBzdGlja3k7XHJcbiAgICB0b3A6IDBweDtcclxuICAgIHotaW5kZXg6IDEwO1xyXG4gICAgYm94LXNoYWRvdzogMHB4IDBweCAxcHggIzFhYzNlMTM4O1xyXG4gICAgYmFja2dyb3VuZDogIzAwMDAwMDE0O1xyXG4gICAgaGVpZ2h0OiAxMHZoO1xyXG4gIH1cclxuXHJcbiAgLnNjcm9sbGVkLW1lbnUtYmFyIHtcclxuICAgIGJveC1zaGFkb3c6IDBweCAwcHggN3B4ICMzMTMxMzEzOCAhaW1wb3J0YW50O1xyXG4gICAgYmFja2dyb3VuZDogbGluZWFyLWdyYWRpZW50KDBkZWcsICMyMDIwMjUsICMyODI5MzUpICFpbXBvcnRhbnQ7XHJcbiAgfVxyXG5cclxuICAjbWFpbi1ib3gge1xyXG4gICAgZGlzcGxheTogZmxleDtcclxuICAgIGZsZXgtZGlyZWN0aW9uOiBjb2x1bW47XHJcbiAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XHJcbiAgICBhbGlnbi1zZWxmOiBjZW50ZXI7XHJcbiAgICBqdXN0aWZ5LWNvbnRlbnQ6IGNlbnRlcjtcclxuICAgIGp1c3RpZnktaXRlbXM6IGNlbnRlcjtcclxuICAgIHdpZHRoOiAxMDAlO1xyXG4gICAgaGVpZ2h0OiAxMDB2aDtcclxuICAgIG1hcmdpbi10b3A6IC0xM3ZoO1xyXG4gICAgYmFja2dyb3VuZC1pbWFnZTogdXJsKFwiLi4vc3RhdGljL3NoYXBlLTEucG5nXCIpO1xyXG4gICAgYmFja2dyb3VuZC1yZXBlYXQ6IG5vLXJlcGVhdDtcclxuICAgIGJhY2tncm91bmQtc2l6ZTogY29udGFpbjtcclxuICAgIGJhY2tncm91bmQtcG9zaXRpb246IHRvcCByaWdodDtcclxuICB9XHJcblxyXG4gIGJ1dHRvbiNnZW5lcmF0ZWQtcGFzc3dvcmQtaW5wdXQge1xyXG4gICAgYm9yZGVyLXJhZGl1czogNTB2dztcclxuICAgIGZvbnQtc2l6ZTogMzBweDtcclxuICAgIGhlaWdodDogODBweDtcclxuICAgIHRleHQtYWxpZ246IGNlbnRlcjtcclxuICAgIGxldHRlci1zcGFjaW5nOiA1cHg7XHJcbiAgICBib3JkZXI6IDBweCBzb2xpZCB0cmFuc3BhcmVudDtcclxuICAgIGJveC1zaGFkb3c6IDBweCAycHggMTBweCAjNDQ0NDQ0NDI7XHJcbiAgICBwYWRkaW5nOiAxMHB4IDQwcHggMTBweCA0MHB4O1xyXG4gICAgZm9udC13ZWlnaHQ6IDcwMDtcclxuICAgIGNvbG9yOiB3aGl0ZTtcclxuICAgIC13ZWJraXQtdGFwLWhpZ2hsaWdodC1jb2xvcjogdHJhbnNwYXJlbnQ7XHJcbiAgICBqdXN0aWZ5LXNlbGY6IGNlbnRlcjtcclxuICAgIGFsaWduLXNlbGY6IGNlbnRlcjtcclxuICAgIG1heC13aWR0aDogMTAwJTtcclxuICB9XHJcblxyXG4gIGJ1dHRvbiNnZW5lcmF0ZWQtcGFzc3dvcmQtaW5wdXQ6Zm9jdXMge1xyXG4gICAgb3V0bGluZTogMXB4IHRyYW5zcGFyZW50IHNvbGlkO1xyXG4gIH1cclxuICBidXR0b24jZ2VuZXJhdGVkLXBhc3N3b3JkLWlucHV0OmhvdmVyIHtcclxuICAgIGN1cnNvcjogcG9pbnRlcjtcclxuICB9XHJcbiAgaDEjbWVudS10aXRsZSB7XHJcbiAgICBwYWRkaW5nOiAxdmggMHZoO1xyXG4gICAgY29sb3I6IHdoaXRlO1xyXG4gICAgdGV4dC1hbGlnbjogY2VudGVyO1xyXG4gICAgZGlzcGxheTogZmxleDtcclxuICAgIGp1c3RpZnktY29udGVudDogY2VudGVyO1xyXG4gICAgYWxpZ24taXRlbXM6IGNlbnRlcjtcclxuICB9XHJcbiAgcCB7XHJcbiAgICAtd2Via2l0LXRhcC1oaWdobGlnaHQtY29sb3I6IHRyYW5zcGFyZW50O1xyXG4gICAgZm9udC1zaXplOiAxLjA1cmVtO1xyXG4gIH1cclxuICAjYXBwLWNvbnRhaW5lciB7XHJcbiAgICBkaXNwbGF5OiBmbGV4O1xyXG4gICAgZmxleC1kaXJlY3Rpb246IGNvbHVtbjtcclxuICAgIGFsaWduLWNvbnRlbnQ6IGNlbnRlcjtcclxuICAgIG1pbi1oZWlnaHQ6IDEwMHZoO1xyXG4gICAgYmFja2dyb3VuZDogbGluZWFyLWdyYWRpZW50KDEyOWRlZywgIzI5MjkyOSwgIzI3MjcyNyk7XHJcbiAgfVxyXG5cclxuICBib2R5IHtcclxuICAgIG1hcmdpbjogMHB4O1xyXG4gIH1cclxuXHJcbiAgaDEsXHJcbiAgaDIsXHJcbiAgaDMsXHJcbiAgaDQsXHJcbiAgaDUsXHJcbiAgaDYsXHJcbiAgYnV0dG9uIHtcclxuICAgIGZvbnQtZmFtaWx5OiBcIkdvb2dsZSBTYW5zXCIsIHNhbnMtc2VyaWY7XHJcbiAgfVxyXG5cclxuICBwIHtcclxuICAgIGZvbnQtZmFtaWx5OiBcIkdvb2dsZSBTYW5zXCIsIHNhbnMtc2VyaWY7XHJcbiAgfVxyXG5cclxuICBhIHtcclxuICAgIGNvbG9yOiAkeyh7IHRoZW1lIH0pID0+IHRoZW1lLmNvbG9ycy5kYXJrZ3JheX07XHJcbiAgICB0ZXh0LWRlY29yYXRpb246IG5vbmU7XHJcbiAgICBmb250LXdlaWdodDogYm9sZDtcclxuICB9XHJcblxyXG4gIGg0I2NsaWNrLXRvLWNvcHkge1xyXG4gICAgY29sb3I6ICR7KHsgdGhlbWUgfSkgPT4gdGhlbWUuY29sb3JzLmRhcmtncmF5fTtcclxuICAgIHRleHQtdHJhbnNmb3JtOiB1cHBlcmNhc2U7XHJcbiAgICBsZXR0ZXItc3BhY2luZzogN3B4O1xyXG4gICAgb3BhY2l0eTogMC44O1xyXG4gIH1cclxuXHJcbiAgLnRleHQtY29udGFpbmVyIHtcclxuICAgIGRpc3BsYXk6IGZsZXg7XHJcbiAgICBwYWRkaW5nOiAydmggOHZ3O1xyXG4gICAgYm9yZGVyLXJhZGl1czogMjBweDtcclxuICAgIGZvbnQtZmFtaWx5OiBcIkNvbGZheFwiO1xyXG4gICAgYWxpZ24tc2VsZjogY2VudGVyO1xyXG4gICAgbWF4LXdpZHRoOiAxMDAlO1xyXG4gIH1cclxuXHJcbiAgI2lucHV0LWNvbXBvbmVudCB7XHJcbiAgICBkaXNwbGF5OiBmbGV4O1xyXG4gICAgZmxleC1kaXJlY3Rpb246IGNvbHVtbjtcclxuICAgIHotaW5kZXg6IDI7XHJcbiAgICBwYWRkaW5nOiA1dmg7XHJcbiAgICB3aWR0aDogMTAwdnc7XHJcbiAgICBhbGlnbi1zZWxmOiBjZW50ZXI7XHJcbiAgICBiYWNrZ3JvdW5kOiBsaW5lYXItZ3JhZGllbnQoNDVkZWcsICMzMzVmZGM1MiwgIzRjNGM0YzA4KTtcclxuICAgIGJvcmRlci1yYWRpdXM6IDIwcHg7XHJcbiAgICBib3gtc2hhZG93OiAwcHggNXB4IDVweCAjMTgxOTE5NTc7XHJcbiAgfVxyXG5cclxuICAuZ3JhZGllbnQtYmcge1xyXG4gICAgYmFja2dyb3VuZDogJHsoeyBjb2xvcnNjaGVtZSB9KSA9PlxyXG4gICAgICBgbGluZWFyLWdyYWRpZW50KCR7Y29sb3JzY2hlbWUuZ3JhZGllbnRCZ30pYH07XHJcbiAgfVxyXG5cclxuICAuaW5wdXQtZ3JhZGllbnQtYmcge1xyXG4gICAgYmFja2dyb3VuZDogJHsoeyBjb2xvcnNjaGVtZSB9KSA9PlxyXG4gICAgICBgbGluZWFyLWdyYWRpZW50KCR7Y29sb3JzY2hlbWUuaW5wdXRHcmFkaWVudEJnfSlgfTtcclxuICB9XHJcblxyXG4gIC5jbGlwLXRleHQge1xyXG4gICAgYmFja2dyb3VuZC1jbGlwOiB0ZXh0O1xyXG4gICAgLXdlYmtpdC1iYWNrZ3JvdW5kLWNsaXA6IHRleHQ7XHJcbiAgICAtd2Via2l0LXRleHQtZmlsbC1jb2xvcjogdHJhbnNwYXJlbnQ7XHJcbiAgfVxyXG5cclxuICBAbWVkaWEgKG1pbi13aWR0aDogNzY4cHgpIHtcclxuICAgICNpbnB1dC1jb21wb25lbnQge1xyXG4gICAgICB3aWR0aDogNjd2dztcclxuICAgIH1cclxuXHJcbiAgICAjbWFpbi1ib3gge1xyXG4gICAgICBtYXJnaW4tdG9wOiAtMTB2aDtcclxuICAgIH1cclxuICB9XHJcblxyXG4gIEBtZWRpYSAob3JpZW50YXRpb246IGxhbmRzY2FwZSkge1xyXG4gICAgI2dlbmVyYXRlZC1wYXNzd29yZC1pbnB1dCB7XHJcbiAgICAgIG1heC13aWR0aDogNTB2dztcclxuICAgIH1cclxuICB9XHJcbmBcclxuXHJcbmNvbnN0IFN0eWxlZFNuYWNrID0gc3R5bGVkKFNuYWNrYmFyKWBcclxuICBkaXYge1xyXG4gICAgYmFja2dyb3VuZDogdHJhbnNwYXJlbnQ7XHJcbiAgICBmbGV4LWdyb3c6IDA7XHJcbiAgICBwYWRkaW5nOiA2cHggMzZweDtcclxuICB9XHJcbiAgLk11aVR5cG9ncmFwaHktcm9vdCB7XHJcbiAgICBiYWNrZ3JvdW5kOiAkeyh7IGNvbG9yc2NoZW1lIH0pID0+XHJcbiAgICAgIGBsaW5lYXItZ3JhZGllbnQoJHtjb2xvcnNjaGVtZS5pbnB1dEdyYWRpZW50Qmd9KWB9O1xyXG4gIH1cclxuICBzcGFuIHtcclxuICAgIGZvbnQtZmFtaWx5OiBcIkdvb2dsZSBTYW5zXCI7XHJcbiAgfVxyXG5gXHJcblxyXG5leHBvcnQgZGVmYXVsdCBIb21lXHJcbiJdfQ== */\n/*@ sourceURL=C:\\Users\\Bruno\\Documents\\Code\\0208\\password\\pages\\index.js */"));
+  }, "body{margin:0;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkM6XFxVc2Vyc1xcQnJ1bm9cXERvY3VtZW50c1xcQ29kZVxcMDIwOFxccGFzc3dvcmRcXHBhZ2VzXFxpbmRleC5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUE2SGtCLEFBR29CLFNBQ1giLCJmaWxlIjoiQzpcXFVzZXJzXFxCcnVub1xcRG9jdW1lbnRzXFxDb2RlXFwwMjA4XFxwYXNzd29yZFxccGFnZXNcXGluZGV4LmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHsgdXNlU3RhdGUsIHVzZVJlZiwgdXNlRWZmZWN0IH0gZnJvbSBcInJlYWN0XCJcclxuaW1wb3J0IHJhbmRvbWl6ZSBmcm9tIFwicmFuZG9tYXRpY1wiXHJcbmltcG9ydCBSb3V0ZXIgZnJvbSBcIm5leHQvcm91dGVyXCJcclxuaW1wb3J0IHsgbW90aW9uIH0gZnJvbSBcImZyYW1lci1tb3Rpb25cIlxyXG5pbXBvcnQgSGVhZFRhZyBmcm9tIFwiLi4vY29tcG9uZW50cy9IZWFkVGFnXCJcclxuaW1wb3J0IHN0eWxlZCBmcm9tIFwic3R5bGVkLWNvbXBvbmVudHNcIlxyXG5pbXBvcnQgQ3NzQmFzZWxpbmUgZnJvbSBcIkBtYXRlcmlhbC11aS9jb3JlL0Nzc0Jhc2VsaW5lXCJcclxuaW1wb3J0IFNuYWNrYmFyIGZyb20gXCJAbWF0ZXJpYWwtdWkvY29yZS9TbmFja2JhclwiXHJcbmltcG9ydCB7IHVzZVNjcm9sbFlQb3NpdGlvbiB9IGZyb20gXCJyZWFjdC11c2Utc2Nyb2xsLXBvc2l0aW9uXCJcclxuaW1wb3J0IFJlYWN0Rml0VGV4dCBmcm9tIFwicmVhY3QtZml0dGV4dFwiXHJcbmltcG9ydCBCZWxvd0ZvbGQgZnJvbSBcIi4uL2NvbXBvbmVudHMvQmVsb3dGb2xkXCJcclxuaW1wb3J0IExvZ28gZnJvbSBcIi4uL2NvbXBvbmVudHMvTG9nb1wiXHJcblxyXG5pbXBvcnQgdXNlQ2xpcGJvYXJkIGZyb20gXCJyZWFjdC11c2UtY2xpcGJvYXJkXCJcclxuXHJcbmNvbnN0IEhvbWUgPSAoKSA9PiB7XHJcbiAgY29uc3QgaW5pdGlhbFBhc3N3b3JkID1cclxuICAgIHByb2Nlc3MuYnJvd3NlciAhPT0gdW5kZWZpbmVkID8gcmFuZG9taXplKFwiQWEwIVwiLCAxMCkgOiBudWxsXHJcbiAgY29uc3QgW3Bhc3N3b3JkLCBzZXRQYXNzd29yZF0gPSB1c2VTdGF0ZShpbml0aWFsUGFzc3dvcmQpXHJcblxyXG4gIGNvbnN0IFtzbmFja2JhcklzT3Blbiwgc2V0U25hY2tiYXJJc09wZW5dID0gdXNlU3RhdGUoZmFsc2UpXHJcbiAgY29uc3QgcGFzc3dvcmRJbnB1dFJlZiA9IHVzZVJlZihudWxsKVxyXG5cclxuICBjb25zdCBzY3JvbGxZUHJvZ3Jlc3MgPSB1c2VTY3JvbGxZUG9zaXRpb24oKVxyXG5cclxuICBjb25zdCBbaXNDb3BpZWQsIHNldENvcGllZF0gPSB1c2VDbGlwYm9hcmQocGFzc3dvcmQpXHJcblxyXG4gIGNvbnN0IHRoZW1lcyA9IHtcclxuICAgIGRlZmF1bHQ6IHtcclxuICAgICAgbmFtZTogXCJkZWZhdWx0XCIsXHJcbiAgICAgIHRvcGJhcmNvbG9yOiBcIiMzMzMzMzNcIixcclxuICAgICAgYmFja2dyb3VuZDogXCJ3aGl0ZVwiLFxyXG4gICAgICBncmFkaWVudEJnOiBcIjI2ZGVnLCAjMDBkYmRlIDAlLCAjZmMwMGZmIDEwMCVcIixcclxuICAgICAgaW5wdXRHcmFkaWVudEJnOiBcIjI2ZGVnLCAjMDBkYmRlIDAlLCAjZmMwMGZmIDEwMCVcIixcclxuICAgICAgaW5wdXRCb3hTaGFkb3c6IFwiI2ZmZmZmZjQyXCIsXHJcbiAgICAgIG92ZXJsYXlCb3hTaGFkb3c6IFwiI2EzYjFkODQyXCIsXHJcbiAgICAgIHNuYWNrYmFyQmFja2dyb3VuZDogXCIjMzMzMzMzXCJcclxuICAgIH0sXHJcbiAgICBkYXJrOiB7XHJcbiAgICAgIG5hbWU6IFwiZGFya1wiLFxyXG4gICAgICB0b3BiYXJjb2xvcjogXCIjMmYzNDM3XCIsXHJcbiAgICAgIGJhY2tncm91bmQ6IFwiIzJmMzQzN1wiLFxyXG4gICAgICBncmFkaWVudEJnOiBcIjI2ZGVnLCNmZmZmZmYgMCUsI2FmYWZhZiAxMDAlXCIsXHJcbiAgICAgIGlucHV0R3JhZGllbnRCZzogXCIyM2RlZyxyZ2IoMTg1LDIyOCwxMzkpLHJnYigxMzEsMTg5LDcwKVwiLFxyXG4gICAgICBpbnB1dEJveFNoYWRvdzogXCIjMGEwYTBhNDJcIixcclxuICAgICAgb3ZlcmxheUJveFNoYWRvdzogXCIjMGEwYTBhNDJcIixcclxuICAgICAgc25hY2tiYXJCYWNrZ3JvdW5kOiBcIiM1ZWFiM2VcIlxyXG4gICAgfVxyXG4gIH1cclxuXHJcbiAgY29uc3QgW2NvbG9yc2NoZW1lLCBzZXRjb2xvcnNjaGVtZV0gPSB1c2VTdGF0ZSh0aGVtZXMuZGFyaylcclxuXHJcbiAgY29uc3QgZ2VuZXJhdGVBbmRDb3B5UGFzc3dvcmQgPSAocGF0dGVybiwgbGVuZ3RoKSA9PiB7XHJcbiAgICBzZXRQYXNzd29yZChyYW5kb21pemUoXCJBYTAhXCIsIDEwKSlcclxuICAgIHBhc3N3b3JkSW5wdXRSZWYuY3VycmVudC5zZWxlY3QoKVxyXG4gICAgZG9jdW1lbnQuZXhlY0NvbW1hbmQoXCJjb3B5XCIpXHJcbiAgICBzZXRTbmFja2JhcklzT3Blbih0cnVlKVxyXG4gIH1cclxuXHJcbiAgY29uc3QgaGFuZGxlU25hY2tiYXJDbG9zZSA9ICgpID0+IHNldFNuYWNrYmFySXNPcGVuKGZhbHNlKVxyXG5cclxuICByZXR1cm4gKFxyXG4gICAgPD5cclxuICAgICAgPENzc0Jhc2VsaW5lIC8+XHJcbiAgICAgIDxIZWFkVGFnIC8+XHJcblxyXG4gICAgICA8QXBwQ29udGFpbmVyIGNvbG9yc2NoZW1lPXtjb2xvcnNjaGVtZX0+XHJcbiAgICAgICAgPGRpdiBpZD1cImFwcC1jb250YWluZXJcIj5cclxuICAgICAgICAgIDxkaXZcclxuICAgICAgICAgICAgaWQ9XCJtZW51LWJhclwiXHJcbiAgICAgICAgICAgIGNsYXNzTmFtZT17c2Nyb2xsWVByb2dyZXNzIDwgMSA/IFwiXCIgOiBcInNjcm9sbGVkLW1lbnUtYmFyXCJ9XHJcbiAgICAgICAgICA+XHJcbiAgICAgICAgICAgIDxoMSBpZD1cIm1lbnUtdGl0bGVcIiBvbkNsaWNrPXsoKSA9PiBSb3V0ZXIucmVsb2FkKCl9PlxyXG4gICAgICAgICAgICAgIHBhc3N3b3JkLmtpd2lcclxuICAgICAgICAgICAgICA8TG9nbyAvPlxyXG4gICAgICAgICAgICA8L2gxPlxyXG4gICAgICAgICAgPC9kaXY+XHJcblxyXG4gICAgICAgICAgPGRpdiBpZD1cIm1haW4tYm94XCI+XHJcbiAgICAgICAgICAgIDxkaXYgaWQ9XCJpbnB1dC1jb21wb25lbnRcIj5cclxuICAgICAgICAgICAgICA8UmVhY3RGaXRUZXh0IGNvbXByZXNzb3I9ezEuNX0gbWF4Rm9udFNpemU9ezQ1fT5cclxuICAgICAgICAgICAgICAgIDxoMSBzdHlsZT17eyBjb2xvcjogXCIjOGFjMjRmXCIgfX0+c2VjdXJlIHBhc3N3b3JkIGdlbmVyYXRvcjwvaDE+XHJcbiAgICAgICAgICAgICAgPC9SZWFjdEZpdFRleHQ+XHJcblxyXG4gICAgICAgICAgICAgIDxtb3Rpb24uYnV0dG9uXHJcbiAgICAgICAgICAgICAgICBpZD1cImdlbmVyYXRlZC1wYXNzd29yZC1pbnB1dFwiXHJcbiAgICAgICAgICAgICAgICBuYW1lPVwiZ2VuZXJhdGVkLXBhc3N3b3JkXCJcclxuICAgICAgICAgICAgICAgIGFyaWEtbGFiZWw9XCJnZW5lcmF0ZWQtcGFzc3dvcmRcIlxyXG4gICAgICAgICAgICAgICAgY2xhc3NOYW1lPVwiaW5wdXQtZ3JhZGllbnQtYmdcIlxyXG4gICAgICAgICAgICAgICAgb25DbGljaz17KCkgPT4ge1xyXG4gICAgICAgICAgICAgICAgICBzZXRDb3BpZWQoKVxyXG4gICAgICAgICAgICAgICAgICBzZXRQYXNzd29yZChyYW5kb21pemUoXCJBYTAhXCIsIDEwKSlcclxuICAgICAgICAgICAgICAgICAgc2V0U25hY2tiYXJJc09wZW4odHJ1ZSlcclxuICAgICAgICAgICAgICAgIH19XHJcbiAgICAgICAgICAgICAgICB3aGlsZUhvdmVyPXt7IHNjYWxlOiAxLjA1IH19XHJcbiAgICAgICAgICAgICAgICB3aGlsZVRhcD17eyBzY2FsZTogMC45NSwgZmlsdGVyOiBcImJsdXIoM3B4KVwiIH19XHJcbiAgICAgICAgICAgICAgICB0cmFuc2l0aW9uPXt7IGVhc2U6IFwiZWFzZU91dFwiLCBkdXJhdGlvbjogMC4zIH19XHJcbiAgICAgICAgICAgICAgPlxyXG4gICAgICAgICAgICAgICAge3Bhc3N3b3JkfVxyXG4gICAgICAgICAgICAgIDwvbW90aW9uLmJ1dHRvbj5cclxuXHJcbiAgICAgICAgICAgICAgPGg0XHJcbiAgICAgICAgICAgICAgICBpZD1cImNsaWNrLXRvLWNvcHlcIlxyXG4gICAgICAgICAgICAgICAgLy8gb25DbGljaz17KCkgPT4gZ2VuZXJhdGVBbmRDb3B5UGFzc3dvcmQoKX1cclxuICAgICAgICAgICAgICA+XHJcbiAgICAgICAgICAgICAgICBjbGljayB0byBjb3B5XHJcbiAgICAgICAgICAgICAgPC9oND5cclxuICAgICAgICAgICAgPC9kaXY+XHJcbiAgICAgICAgICA8L2Rpdj5cclxuXHJcbiAgICAgICAgICA8U3R5bGVkU25hY2tcclxuICAgICAgICAgICAgYW5jaG9yT3JpZ2luPXt7XHJcbiAgICAgICAgICAgICAgdmVydGljYWw6IFwiYm90dG9tXCIsXHJcbiAgICAgICAgICAgICAgaG9yaXpvbnRhbDogXCJjZW50ZXJcIlxyXG4gICAgICAgICAgICB9fVxyXG4gICAgICAgICAgICBjb2xvcnNjaGVtZT17Y29sb3JzY2hlbWV9XHJcbiAgICAgICAgICAgIG9wZW49e3NuYWNrYmFySXNPcGVufVxyXG4gICAgICAgICAgICBhdXRvSGlkZUR1cmF0aW9uPXsxMDAwfVxyXG4gICAgICAgICAgICBtZXNzYWdlPXs8c3BhbiBpZD1cIm1lc3NhZ2UtaWRcIj5jb3BpZWQgdG8gY2xpcGJvYXJkITwvc3Bhbj59XHJcbiAgICAgICAgICAgIG9uQ2xvc2U9e2hhbmRsZVNuYWNrYmFyQ2xvc2V9XHJcbiAgICAgICAgICAvPlxyXG5cclxuICAgICAgICAgIDxCZWxvd0ZvbGQgLz5cclxuICAgICAgICA8L2Rpdj5cclxuICAgICAgPC9BcHBDb250YWluZXI+XHJcbiAgICAgIDxzdHlsZSBqc3g+e2BcclxuICAgICAgICA6Z2xvYmFsKGJvZHkpIHtcclxuICAgICAgICAgIG1hcmdpbjogMDtcclxuICAgICAgICB9XHJcbiAgICAgIGB9PC9zdHlsZT5cclxuICAgIDwvPlxyXG4gIClcclxufVxyXG5cclxuY29uc3QgQXBwQ29udGFpbmVyID0gc3R5bGVkLmRpdmBcclxuICBAaW1wb3J0IHVybChcImh0dHBzOi8vZm9udHMuZ29vZ2xlYXBpcy5jb20vY3NzP2ZhbWlseT1Hb29nbGUrU2Fuczo0MDAsNzAwJmRpc3BsYXk9c3dhcFwiKTtcclxuXHJcbiAgI21lbnUtYmFyIHtcclxuICAgIGRpc3BsYXk6IGZsZXg7XHJcbiAgICBhbGlnbi1jb250ZW50OiBjZW50ZXI7XHJcbiAgICBmbGV4LWRpcmVjdGlvbjogY29sdW1uO1xyXG4gICAganVzdGlmeS1jb250ZW50OiBjZW50ZXI7XHJcbiAgICBwb3NpdGlvbjogc3RpY2t5O1xyXG4gICAgdG9wOiAwcHg7XHJcbiAgICB6LWluZGV4OiAxMDtcclxuICAgIGJveC1zaGFkb3c6IDBweCAwcHggMXB4ICMxYWMzZTEzODtcclxuICAgIGJhY2tncm91bmQ6IGxpbmVhci1ncmFkaWVudCgyM2RlZywgcmdiKDE4NSwgMjI4LCAxMzkpLCByZ2IoMTMxLCAxODksIDcwKSk7XHJcbiAgICBoZWlnaHQ6IDEwdmg7XHJcbiAgfVxyXG5cclxuICAuc2Nyb2xsZWQtbWVudS1iYXIge1xyXG4gICAgYm94LXNoYWRvdzogMHB4IDBweCA3cHggIzMxMzEzMTM4ICFpbXBvcnRhbnQ7XHJcbiAgICBiYWNrZ3JvdW5kOiBsaW5lYXItZ3JhZGllbnQoXHJcbiAgICAgIDIzZGVnLFxyXG4gICAgICByZ2IoMTg1LCAyMjgsIDEzOSksXHJcbiAgICAgIHJnYigxMzEsIDE4OSwgNzApXHJcbiAgICApICFpbXBvcnRhbnQ7XHJcbiAgfVxyXG5cclxuICAjbWFpbi1ib3gge1xyXG4gICAgZGlzcGxheTogZmxleDtcclxuICAgIGZsZXgtZGlyZWN0aW9uOiBjb2x1bW47XHJcbiAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XHJcbiAgICBhbGlnbi1zZWxmOiBjZW50ZXI7XHJcbiAgICBqdXN0aWZ5LWNvbnRlbnQ6IGNlbnRlcjtcclxuICAgIGp1c3RpZnktaXRlbXM6IGNlbnRlcjtcclxuICAgIHdpZHRoOiAxMDAlO1xyXG4gICAgaGVpZ2h0OiAxMDB2aDtcclxuICAgIG1hcmdpbi10b3A6IC0xM3ZoO1xyXG4gICAgLyogYmFja2dyb3VuZC1pbWFnZTogdXJsKFwiLi4vc3RhdGljL3NoYXBlLTIucG5nXCIpOyAqL1xyXG4gICAgYmFja2dyb3VuZC1yZXBlYXQ6IG5vLXJlcGVhdDtcclxuICAgIGJhY2tncm91bmQtc2l6ZTogY29udGFpbjtcclxuICAgIGJhY2tncm91bmQtcG9zaXRpb246IHRvcCByaWdodDtcclxuICB9XHJcblxyXG4gIGJ1dHRvbiNnZW5lcmF0ZWQtcGFzc3dvcmQtaW5wdXQge1xyXG4gICAgYm9yZGVyLXJhZGl1czogNTB2dztcclxuICAgIGZvbnQtc2l6ZTogMzBweDtcclxuICAgIGhlaWdodDogODBweDtcclxuICAgIHRleHQtYWxpZ246IGNlbnRlcjtcclxuICAgIGxldHRlci1zcGFjaW5nOiA1cHg7XHJcbiAgICBib3JkZXI6IDBweCBzb2xpZCB0cmFuc3BhcmVudDtcclxuICAgIGJveC1zaGFkb3c6IDBweCAycHggMTBweCAjNDQ0NDQ0NDI7XHJcbiAgICBwYWRkaW5nOiAxMHB4IDQwcHggMTBweCA0MHB4O1xyXG4gICAgZm9udC13ZWlnaHQ6IDcwMDtcclxuICAgIGNvbG9yOiB3aGl0ZTtcclxuICAgIC13ZWJraXQtdGFwLWhpZ2hsaWdodC1jb2xvcjogdHJhbnNwYXJlbnQ7XHJcbiAgICBqdXN0aWZ5LXNlbGY6IGNlbnRlcjtcclxuICAgIGFsaWduLXNlbGY6IGNlbnRlcjtcclxuICAgIG1heC13aWR0aDogMTAwJTtcclxuICB9XHJcblxyXG4gIGJ1dHRvbiNnZW5lcmF0ZWQtcGFzc3dvcmQtaW5wdXQ6Zm9jdXMge1xyXG4gICAgb3V0bGluZTogMXB4IHRyYW5zcGFyZW50IHNvbGlkO1xyXG4gIH1cclxuICBidXR0b24jZ2VuZXJhdGVkLXBhc3N3b3JkLWlucHV0OmhvdmVyIHtcclxuICAgIGN1cnNvcjogcG9pbnRlcjtcclxuICB9XHJcbiAgaDEjbWVudS10aXRsZSB7XHJcbiAgICBwYWRkaW5nOiAxdmggMHZoO1xyXG4gICAgY29sb3I6IHdoaXRlO1xyXG4gICAgdGV4dC1hbGlnbjogY2VudGVyO1xyXG4gICAgZGlzcGxheTogZmxleDtcclxuICAgIGp1c3RpZnktY29udGVudDogY2VudGVyO1xyXG4gICAgYWxpZ24taXRlbXM6IGNlbnRlcjtcclxuICAgIC8qIHRleHQtc2hhZG93OiAwcHggMXB4IDJweCAjNzlhYjAzOyAqL1xyXG4gIH1cclxuICBwIHtcclxuICAgIC13ZWJraXQtdGFwLWhpZ2hsaWdodC1jb2xvcjogdHJhbnNwYXJlbnQ7XHJcbiAgICBmb250LXNpemU6IDEuMDVyZW07XHJcbiAgfVxyXG4gICNhcHAtY29udGFpbmVyIHtcclxuICAgIGRpc3BsYXk6IGZsZXg7XHJcbiAgICBmbGV4LWRpcmVjdGlvbjogY29sdW1uO1xyXG4gICAgYWxpZ24tY29udGVudDogY2VudGVyO1xyXG4gICAgbWluLWhlaWdodDogMTAwdmg7XHJcbiAgICBiYWNrZ3JvdW5kOiBsaW5lYXItZ3JhZGllbnQoMTI5ZGVnLCByZ2IoMjU1LCAyNTUsIDI1NSksIHJnYigyNDUsIDI0NSwgMjQ1KSk7XHJcbiAgfVxyXG5cclxuICBib2R5IHtcclxuICAgIG1hcmdpbjogMHB4O1xyXG4gIH1cclxuXHJcbiAgaDEsXHJcbiAgaDIsXHJcbiAgaDMsXHJcbiAgaDQsXHJcbiAgaDUsXHJcbiAgaDYsXHJcbiAgYnV0dG9uIHtcclxuICAgIGZvbnQtZmFtaWx5OiBcIkdvb2dsZSBTYW5zXCIsIHNhbnMtc2VyaWY7XHJcbiAgfVxyXG5cclxuICBwIHtcclxuICAgIGZvbnQtZmFtaWx5OiBcIkdvb2dsZSBTYW5zXCIsIHNhbnMtc2VyaWY7XHJcbiAgfVxyXG5cclxuICBhIHtcclxuICAgIGNvbG9yOiAjOGFjMjRmO1xyXG4gICAgdGV4dC1kZWNvcmF0aW9uOiBub25lO1xyXG4gICAgZm9udC13ZWlnaHQ6IGJvbGQ7XHJcbiAgfVxyXG5cclxuICBoNCNjbGljay10by1jb3B5IHtcclxuICAgIGNvbG9yOiAjOGFjMjRmO1xyXG4gICAgdGV4dC10cmFuc2Zvcm06IHVwcGVyY2FzZTtcclxuICAgIGxldHRlci1zcGFjaW5nOiA3cHg7XHJcbiAgICBvcGFjaXR5OiAwLjg7XHJcbiAgfVxyXG5cclxuICAudGV4dC1jb250YWluZXIge1xyXG4gICAgZGlzcGxheTogZmxleDtcclxuICAgIHBhZGRpbmc6IDJ2aCA4dnc7XHJcbiAgICBib3JkZXItcmFkaXVzOiAyMHB4O1xyXG4gICAgZm9udC1mYW1pbHk6IFwiQ29sZmF4XCI7XHJcbiAgICBhbGlnbi1zZWxmOiBjZW50ZXI7XHJcbiAgICBtYXgtd2lkdGg6IDEwMCU7XHJcbiAgfVxyXG5cclxuICAjaW5wdXQtY29tcG9uZW50IHtcclxuICAgIGRpc3BsYXk6IGZsZXg7XHJcbiAgICBmbGV4LWRpcmVjdGlvbjogY29sdW1uO1xyXG4gICAgei1pbmRleDogMjtcclxuICAgIHBhZGRpbmc6IDV2aDtcclxuICAgIHdpZHRoOiAxMDB2dztcclxuICAgIGFsaWduLXNlbGY6IGNlbnRlcjtcclxuICAgIC8qIGJhY2tncm91bmQ6IGxpbmVhci1ncmFkaWVudCg0NWRlZywgIzMzNWZkYzUyLCAjNGM0YzRjMDgpOyAqL1xyXG4gICAgYm9yZGVyLXJhZGl1czogMjBweDtcclxuICAgIC8qIGJveC1zaGFkb3c6IDBweCA1cHggNXB4ICMxODE5MTk1NzsgKi9cclxuICB9XHJcblxyXG4gIC5ncmFkaWVudC1iZyB7XHJcbiAgICBiYWNrZ3JvdW5kOiAkeyh7IGNvbG9yc2NoZW1lIH0pID0+XHJcbiAgICAgIGBsaW5lYXItZ3JhZGllbnQoJHtjb2xvcnNjaGVtZS5ncmFkaWVudEJnfSlgfTtcclxuICB9XHJcblxyXG4gIC5pbnB1dC1ncmFkaWVudC1iZyB7XHJcbiAgICBiYWNrZ3JvdW5kOiAkeyh7IGNvbG9yc2NoZW1lIH0pID0+XHJcbiAgICAgIGBsaW5lYXItZ3JhZGllbnQoJHtjb2xvcnNjaGVtZS5pbnB1dEdyYWRpZW50Qmd9KWB9O1xyXG4gIH1cclxuXHJcbiAgLmNsaXAtdGV4dCB7XHJcbiAgICBiYWNrZ3JvdW5kLWNsaXA6IHRleHQ7XHJcbiAgICAtd2Via2l0LWJhY2tncm91bmQtY2xpcDogdGV4dDtcclxuICAgIC13ZWJraXQtdGV4dC1maWxsLWNvbG9yOiB0cmFuc3BhcmVudDtcclxuICB9XHJcblxyXG4gIEBtZWRpYSAobWluLXdpZHRoOiA3NjhweCkge1xyXG4gICAgI2lucHV0LWNvbXBvbmVudCB7XHJcbiAgICAgIHdpZHRoOiA2N3Z3O1xyXG4gICAgfVxyXG5cclxuICAgICNtYWluLWJveCB7XHJcbiAgICAgIG1hcmdpbi10b3A6IC0xMHZoO1xyXG4gICAgfVxyXG4gIH1cclxuXHJcbiAgQG1lZGlhIChvcmllbnRhdGlvbjogbGFuZHNjYXBlKSB7XHJcbiAgICAjZ2VuZXJhdGVkLXBhc3N3b3JkLWlucHV0IHtcclxuICAgICAgbWF4LXdpZHRoOiA1MHZ3O1xyXG4gICAgfVxyXG4gIH1cclxuYFxyXG5cclxuY29uc3QgU3R5bGVkU25hY2sgPSBzdHlsZWQoU25hY2tiYXIpYFxyXG4gIGRpdiB7XHJcbiAgICBiYWNrZ3JvdW5kOiB0cmFuc3BhcmVudDtcclxuICAgIGZsZXgtZ3JvdzogMDtcclxuICAgIHBhZGRpbmc6IDZweCAzNnB4O1xyXG4gIH1cclxuICAuTXVpVHlwb2dyYXBoeS1yb290IHtcclxuICAgIGJhY2tncm91bmQ6ICR7KHsgY29sb3JzY2hlbWUgfSkgPT5cclxuICAgICAgYGxpbmVhci1ncmFkaWVudCgke2NvbG9yc2NoZW1lLmlucHV0R3JhZGllbnRCZ30pYH07XHJcbiAgICBib3gtc2hhZG93OiBub25lO1xyXG4gICAgYm9yZGVyLXJhZGl1czogMzBweDtcclxuICB9XHJcbiAgc3BhbiB7XHJcbiAgICBmb250LWZhbWlseTogXCJHb29nbGUgU2Fuc1wiO1xyXG4gIH1cclxuYFxyXG5cclxuZXhwb3J0IGRlZmF1bHQgSG9tZVxyXG4iXX0= */\n/*@ sourceURL=C:\\Users\\Bruno\\Documents\\Code\\0208\\password\\pages\\index.js */"));
 };
 
 var AppContainer = styled_components__WEBPACK_IMPORTED_MODULE_8__["default"].div(_templateObject(), function (_ref) {
-  var theme = _ref.theme;
-  return theme.colors.darkgray;
-}, function (_ref2) {
-  var theme = _ref2.theme;
-  return theme.colors.darkgray;
-}, function (_ref3) {
-  var colorscheme = _ref3.colorscheme;
+  var colorscheme = _ref.colorscheme;
   return "linear-gradient(".concat(colorscheme.gradientBg, ")");
-}, function (_ref4) {
-  var colorscheme = _ref4.colorscheme;
+}, function (_ref2) {
+  var colorscheme = _ref2.colorscheme;
   return "linear-gradient(".concat(colorscheme.inputGradientBg, ")");
 });
-var StyledSnack = Object(styled_components__WEBPACK_IMPORTED_MODULE_8__["default"])(_material_ui_core_Snackbar__WEBPACK_IMPORTED_MODULE_10__["default"])(_templateObject2(), function (_ref5) {
-  var colorscheme = _ref5.colorscheme;
+var StyledSnack = Object(styled_components__WEBPACK_IMPORTED_MODULE_8__["default"])(_material_ui_core_Snackbar__WEBPACK_IMPORTED_MODULE_10__["default"])(_templateObject2(), function (_ref3) {
+  var colorscheme = _ref3.colorscheme;
   return "linear-gradient(".concat(colorscheme.inputGradientBg, ")");
 });
 /* harmony default export */ __webpack_exports__["default"] = (Home);

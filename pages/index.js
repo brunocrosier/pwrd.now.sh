@@ -1,61 +1,70 @@
-import { useState, useRef, useEffect } from "react"
+import { useState, useEffect } from "react"
 import randomize from "randomatic"
 import Router from "next/router"
 import { motion } from "framer-motion"
 import HeadTag from "../components/HeadTag"
 import styled from "styled-components"
-import CssBaseline from "@material-ui/core/CssBaseline"
 import Snackbar from "@material-ui/core/Snackbar"
 import { useScrollYPosition } from "react-use-scroll-position"
 import ReactFitText from "react-fittext"
 import BelowFold from "../components/BelowFold"
-import Logo from "../components/Logo"
-
 import useClipboard from "react-use-clipboard"
+import Slider from "react-input-slider"
+import Switch from "../components/Switch"
+import { CssBaseline } from "@material-ui/core"
 
 const Home = () => {
   const initialPassword =
     process.browser !== undefined ? randomize("Aa0!", 10) : null
   const [password, setPassword] = useState(initialPassword)
-
   const [snackbarIsOpen, setSnackbarIsOpen] = useState(false)
-  const passwordInputRef = useRef(null)
+  const [areSymbolsAllowed, setAreSymbolsAllowed] = useState(true)
+  const [areNumbersAllowed, setAreNumbersAllowed] = useState(true)
+  const [areLettersAllowed, setAreLettersAllowed] = useState(true)
+  const [sliderValue, setSliderValue] = useState(13)
+  const [hasBeenCopied, setHasBeenCopied] = useState(false)
 
   const scrollYProgress = useScrollYPosition()
 
   const [isCopied, setCopied] = useClipboard(password)
 
-  const themes = {
-    default: {
-      name: "default",
-      topbarcolor: "#333333",
-      background: "white",
-      gradientBg: "26deg, #00dbde 0%, #fc00ff 100%",
-      inputGradientBg: "26deg, #00dbde 0%, #fc00ff 100%",
-      inputBoxShadow: "#ffffff42",
-      overlayBoxShadow: "#a3b1d842",
-      snackbarBackground: "#333333"
-    },
-    dark: {
-      name: "dark",
-      topbarcolor: "#2f3437",
-      background: "#2f3437",
-      gradientBg: "26deg,#ffffff 0%,#afafaf 100%",
-      inputGradientBg: "23deg,rgb(185,228,139),rgb(131,189,70)",
-      inputBoxShadow: "#0a0a0a42",
-      overlayBoxShadow: "#0a0a0a42",
-      snackbarBackground: "#5eab3e"
+  const generatePassword = () => {
+    let randomizeValue = ""
+
+    if (areLettersAllowed) {
+      randomizeValue = randomizeValue + "Aa"
+    }
+
+    if (areNumbersAllowed) {
+      randomizeValue = randomizeValue + "0"
+    }
+
+    if (areSymbolsAllowed) {
+      randomizeValue = randomizeValue + "!"
+    }
+
+    if (randomizeValue === "") {
+      setPassword(":(")
+    } else {
+      setPassword(randomize(randomizeValue, sliderValue))
     }
   }
 
-  const [colorscheme, setcolorscheme] = useState(themes.dark)
+  useEffect(() => {
+    generatePassword()
+  }, [areLettersAllowed])
 
-  const generateAndCopyPassword = (pattern, length) => {
-    setPassword(randomize("Aa0!", 10))
-    passwordInputRef.current.select()
-    document.execCommand("copy")
-    setSnackbarIsOpen(true)
-  }
+  useEffect(() => {
+    generatePassword()
+  }, [areNumbersAllowed])
+
+  useEffect(() => {
+    generatePassword()
+  }, [areSymbolsAllowed])
+
+  useEffect(() => {
+    generatePassword()
+  }, [sliderValue])
 
   const handleSnackbarClose = () => setSnackbarIsOpen(false)
 
@@ -64,16 +73,13 @@ const Home = () => {
       <CssBaseline />
       <HeadTag />
 
-      <AppContainer colorscheme={colorscheme}>
+      <AppContainer>
         <div id="app-container">
           <div
             id="menu-bar"
             className={scrollYProgress < 1 ? "" : "scrolled-menu-bar"}
           >
-            <h1 id="menu-title" onClick={() => Router.reload()}>
-              password.kiwi
-              <Logo />
-            </h1>
+            <img src="/logo.svg" alt="password.kiwi logo" onClick={() => Router.reload()}/>
           </div>
 
           <div id="main-box">
@@ -89,7 +95,7 @@ const Home = () => {
                 className="input-gradient-bg"
                 onClick={() => {
                   setCopied()
-                  setPassword(randomize("Aa0!", 10))
+                  setHasBeenCopied(true)
                   setSnackbarIsOpen(true)
                 }}
                 whileHover={{ scale: 1.05 }}
@@ -101,10 +107,72 @@ const Home = () => {
 
               <h4
                 id="click-to-copy"
-                // onClick={() => generateAndCopyPassword()}
+                onClick={() => {
+                  if (!hasBeenCopied) {
+                    setCopied(password)
+                    setHasBeenCopied(true)
+                    setSnackbarIsOpen(true)
+                  } else {
+                    generatePassword()
+                    setHasBeenCopied(false)
+                  }
+                }}
               >
-                click to copy
+                click to {hasBeenCopied ? "generate" : "copy"}
               </h4>
+
+              <div
+                style={{
+                  margin: "5vh 0",
+                  display: "flex",
+                  justifyContent: "space-evenly"
+                }}
+              >
+                <Switch
+                  checked={areSymbolsAllowed}
+                  onChange={setAreSymbolsAllowed}
+                  name="Symbols"
+                  setHasBeenCopied={setHasBeenCopied}
+                />
+                <Switch
+                  checked={areNumbersAllowed}
+                  onChange={setAreNumbersAllowed}
+                  name="Numbers"
+                  setHasBeenCopied={setHasBeenCopied}
+                />
+                <Switch
+                  checked={areLettersAllowed}
+                  onChange={setAreLettersAllowed}
+                  name="Letters"
+                  setHasBeenCopied={setHasBeenCopied}
+                />
+              </div>
+
+              <Slider
+                style={{
+                  display: "flex",
+                  alignSelf: "center",
+                  minWidth: "60%"
+                }}
+                styles={{
+                  active: { backgroundColor: "#c2dea4" },
+                  thumb: {
+                    width: 20,
+                    height: 20,
+                    backgroundColor: "#89c14d"
+                  }
+                }}
+                axis="x"
+                xstep={1}
+                xmin={8}
+                xmax={30}
+                x={sliderValue}
+                onChange={({ x }) => {
+                  setSliderValue(x)
+                  setHasBeenCopied(false)
+                }}
+              />
+              <p>{sliderValue} characters</p>
             </div>
           </div>
 
@@ -113,7 +181,6 @@ const Home = () => {
               vertical: "bottom",
               horizontal: "center"
             }}
-            colorscheme={colorscheme}
             open={snackbarIsOpen}
             autoHideDuration={1000}
             message={<span id="message-id">copied to clipboard!</span>}
@@ -144,17 +211,13 @@ const AppContainer = styled.div`
     top: 0px;
     z-index: 10;
     box-shadow: 0px 0px 1px #1ac3e138;
-    background: linear-gradient(23deg, rgb(185, 228, 139), rgb(131, 189, 70));
+    /* background: rgb(159, 209, 105); */
+    background: linear-gradient(0deg, rgb(148, 201, 92), rgb(159, 209, 105));
     height: 10vh;
   }
 
   .scrolled-menu-bar {
     box-shadow: 0px 0px 7px #31313138 !important;
-    background: linear-gradient(
-      23deg,
-      rgb(185, 228, 139),
-      rgb(131, 189, 70)
-    ) !important;
   }
 
   #main-box {
@@ -167,10 +230,6 @@ const AppContainer = styled.div`
     width: 100%;
     height: 100vh;
     margin-top: -13vh;
-    /* background-image: url("../static/shape-2.png"); */
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: top right;
   }
 
   button#generated-password-input {
@@ -188,6 +247,11 @@ const AppContainer = styled.div`
     justify-self: center;
     align-self: center;
     max-width: 100%;
+
+    overflow: hidden;
+    white-space: nowrap;
+    display: block;
+    text-overflow: ellipsis;
   }
 
   button#generated-password-input:focus {
@@ -196,14 +260,8 @@ const AppContainer = styled.div`
   button#generated-password-input:hover {
     cursor: pointer;
   }
-  h1#menu-title {
-    padding: 1vh 0vh;
-    color: white;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    /* text-shadow: 0px 1px 2px #79ab03; */
+  #menu-bar > img {
+    padding: 1vh;
   }
   p {
     -webkit-tap-highlight-color: transparent;
@@ -246,6 +304,8 @@ const AppContainer = styled.div`
     text-transform: uppercase;
     letter-spacing: 7px;
     opacity: 0.8;
+    cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
   }
 
   .text-container {
@@ -260,23 +320,17 @@ const AppContainer = styled.div`
   #input-component {
     display: flex;
     flex-direction: column;
-    z-index: 2;
+    max-width: 100%;
     padding: 5vh;
-    width: 100vw;
     align-self: center;
-    /* background: linear-gradient(45deg, #335fdc52, #4c4c4c08); */
-    border-radius: 20px;
-    /* box-shadow: 0px 5px 5px #18191957; */
   }
 
   .gradient-bg {
-    background: ${({ colorscheme }) =>
-      `linear-gradient(${colorscheme.gradientBg})`};
+    background: linear-gradient(26deg, #ffffff 0%, #afafaf 100%);
   }
 
   .input-gradient-bg {
-    background: ${({ colorscheme }) =>
-      `linear-gradient(${colorscheme.inputGradientBg})`};
+    background: linear-gradient(23deg, rgb(185, 228, 139), rgb(131, 189, 70));
   }
 
   .clip-text {
@@ -309,13 +363,14 @@ const StyledSnack = styled(Snackbar)`
     padding: 6px 36px;
   }
   .MuiTypography-root {
-    background: ${({ colorscheme }) =>
-      `linear-gradient(${colorscheme.inputGradientBg})`};
-    box-shadow: none;
+    background: linear-gradient(23deg, rgb(185, 228, 139), rgb(131, 189, 70));
+    box-shadow: 0px 2px 5px #04040463;
     border-radius: 30px;
+    justify-content: center;
   }
   span {
     font-family: "Google Sans";
+    font-weight: 700;
   }
 `
 

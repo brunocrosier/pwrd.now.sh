@@ -4,11 +4,11 @@
   "lang": "en-US",
   "start_url": "/",
   "display": "standalone",
-  "theme_color": "#202025",
-  "background_color": "#202025",
+  "theme_color": "#8be4aa",
+  "background_color": "#8be4aa",
   "icons": [
     {
-      "src": "https://password.kiwi/static/kiwi.png",
+      "src": "https://password.kiwi/password-kiwi-logo-512.png",
       "type": "image/png",
       "sizes": "512x512"
     }

@@ -1,5 +1,7 @@
 import Document from "next/document"
 import { ServerStyleSheet } from "styled-components"
+import { CssBaseline } from "@material-ui/core"
+import { HeadTag } from "../components/HeadTag"
 
 export default class MyDocument extends Document {
   static async getInitialProps(ctx) {
@@ -9,7 +11,8 @@ export default class MyDocument extends Document {
     try {
       ctx.renderPage = () =>
         originalRenderPage({
-          enhanceApp: App => props => sheet.collectStyles(<App {...props} />)
+          enhanceApp: (App) => (props) =>
+            sheet.collectStyles(<App {...props} />),
         })
 
       const initialProps = await Document.getInitialProps(ctx)
@@ -17,17 +20,13 @@ export default class MyDocument extends Document {
         ...initialProps,
         styles: (
           <>
+            <html lang="en" dir="ltr" />
+            {/* <CssBaseline /> */}
+            <HeadTag />
             {initialProps.styles}
             {sheet.getStyleElement()}
-            <html lang="en" dir="ltr" />
-            {/* <style jsx global>{`
-              body {
-                margin: 0px;
-                overflow-x: hidden;
-              }
-            `}</style> */}
           </>
-        )
+        ),
       }
     } finally {
       sheet.seal()

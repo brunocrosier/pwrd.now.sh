@@ -1,23 +1,20 @@
-import App, { Container } from 'next/app'
-import React from 'react'
-import { ThemeProvider } from 'styled-components'
+import CssBaseline from "@material-ui/core/CssBaseline"
+import { HeadTag } from "../components/HeadTag"
 
-const theme = {
-  colors: {
-    kiwi: "#4cd082",
-    darkgray: "#333333"
-  }
+const MyApp = ({ Component, pageProps }) => {
+  return (
+    <>
+      <HeadTag />
+      <Component {...pageProps} />
+      {/* <CssBaseline /> */}
+      <style jsx global>{`
+        html,
+        body {
+          margin: 0 !important;
+        }
+      `}</style>
+    </>
+  )
 }
 
-export default class MyApp extends App {
-  render () {
-    const { Component, pageProps } = this.props
-    return (
-      <Container>
-        <ThemeProvider theme={theme}>
-          <Component {...pageProps} />
-        </ThemeProvider>
-      </Container>
-    )
-  }
-}
+export default MyApp
